@@ -1,0 +1,2164 @@
+<AvpDict>
+<!--vendor=0, Base Diameter-->
+<Vendor vendorcode="0" vendorname="Base Diameter">
+	<AVP name="User-Name" code="1" type="str"></AVP>
+	<AVP name="User-Password" code="2" type="str"></AVP>
+	<AVP name="CHAP-Password" code="3" type="str"></AVP>
+	<AVP name="NAS-IP-Address" code="4" type="str"></AVP>
+	<AVP name="NAS-Port" code="5" type="int"></AVP>
+	<AVP name="Service-Type" code="6" type="int"></AVP>
+	<AVP name="Framed-Protocol" code="7" type="int"></AVP>
+	<AVP name="Framed-IP-Address" code="8" type="str"></AVP>
+	<AVP name="Framed-IP-Netmask" code="9" type="str"></AVP>
+	<AVP name="Framed-Routing" code="10" type="int"></AVP>
+	<AVP name="Filter-Id" code="11" type="str"></AVP>
+	<AVP name="Framed-MTU" code="12" type="int"></AVP>
+	<AVP name="Framed-Compression" code="13" type="int"></AVP>
+	<AVP name="Login-IP-Host" code="14" type="str"></AVP>
+	<AVP name="Login-Service" code="15" type="int"></AVP>
+	<AVP name="Login-TCP-Port" code="16" type="int"></AVP>
+	<AVP name="Unassigned" code="17" type="str"></AVP>
+	<AVP name="Reply-Message" code="18" type="str"></AVP>
+	<AVP name="Callback-Number" code="19" type="str"></AVP>
+	<AVP name="Callback-Id" code="20" type="str"></AVP>
+	<AVP name="Unassigned" code="21" type="str"></AVP>
+	<AVP name="Framed-Route" code="22" type="str"></AVP>
+	<AVP name="Framed-IPX-Network" code="23" type="str"></AVP>
+	<AVP name="State" code="24" type="str"></AVP>
+	<AVP name="Class" code="25" type="str"></AVP>
+	<AVP name="Vendor-Specific" code="26" type="int"></AVP>
+	<AVP name="Session-Timeout" code="27" type="int"></AVP>
+	<AVP name="Idle-Timeout" code="28" type="int"></AVP>
+	<AVP name="Termination-Action" code="29" type="int"></AVP>
+	<AVP name="Called-Station-Id" code="30" type="str"></AVP>
+	<AVP name="Calling-Station-Id" code="31" type="str"></AVP>
+	<AVP name="NAS-Identifier" code="32" type="str"></AVP>
+	<AVP name="Proxy-State" code="33" type="str"></AVP>
+	<AVP name="Login-LAT-Service" code="34" type="str"></AVP>
+	<AVP name="Login-LAT-Node" code="35" type="str"></AVP>
+	<AVP name="Login-LAT-Group" code="36" type="str"></AVP>
+	<AVP name="Framed-AppleTalk-Link" code="37" type="int"></AVP>
+	<AVP name="Framed-AppleTalk-Network" code="38" type="int"></AVP>
+	<AVP name="Framed-AppleTalk-Zone" code="39" type="str"></AVP>
+	<AVP name="Acct-Status-Type" code="40" type="int"></AVP>
+	<AVP name="Acct-Delay-Time" code="41" type="int"></AVP>
+	<AVP name="Acct-Input-Octets" code="42" type="int"></AVP>
+	<AVP name="Acct-Output-Octets" code="43" type="int"></AVP>
+	<AVP name="Acct-Session-Id" code="44" type="str"></AVP>
+	<AVP name="Acct-Authentic" code="45" type="int"></AVP>
+	<AVP name="Acct-Session-Time" code="46" type="int"></AVP>
+	<AVP name="Acct-Input-Packets" code="47" type="int"></AVP>
+	<AVP name="Acct-Output-Packets" code="48" type="int"></AVP>
+	<AVP name="Acct-Terminate-Cause" code="49" type="int"></AVP>
+	<AVP name="Accounting-Multi-Session-Id" code="50" type="str"></AVP>
+	<AVP name="Acct-Link-Count" code="51" type="int"></AVP>
+	<AVP name="Acct-Input-Gigawords" code="52" type="int"></AVP>
+	<AVP name="Acct-Output-Gigawords" code="53" type="int"></AVP>
+	<AVP name="Unassigned" code="54" type="str"></AVP>
+	<AVP name="Event-Timestamp" code="55" type="int"></AVP>
+	<AVP name="Egress-VLANID" code="56" type="str"></AVP>
+	<AVP name="Ingress-Filters" code="57" type="int"></AVP>
+	<AVP name="Egress-VLAN-Name" code="58" type="str"></AVP>
+	<AVP name="User-Priority-Table" code="59" type="str"></AVP>
+	<AVP name="CHAP-Challenge" code="60" type="str"></AVP>
+	<AVP name="NAS-Port-Type" code="61" type="int"></AVP>
+	<AVP name="Port-Limit" code="62" type="int"></AVP>
+	<AVP name="Login-LAT-Port" code="63" type="str"></AVP>
+	<AVP name="Tunnel-Type" code="64" type="int"></AVP>
+	<AVP name="Tunnel-Medium-Type" code="65" type="int"></AVP>
+	<AVP name="Acct-Tunnel-Client-Endpoint" code="66" type="str"></AVP>
+	<AVP name="Tunnel-Server-Endpoint" code="67" type="str"></AVP>
+	<AVP name="Acct-Tunnel-Connection-ID" code="68" type="str"></AVP>
+	<AVP name="Tunnel-Password" code="69" type="str"></AVP>
+	<AVP name="ARAP-Password" code="70" type="str"></AVP>
+	<AVP name="ARAP-Features" code="71" type="str"></AVP>
+	<AVP name="ARAP-Zone-Access" code="72" type="int"></AVP>
+	<AVP name="ARAP-Security" code="73" type="int"></AVP>
+	<AVP name="ARAP-Security-Data" code="74" type="str"></AVP>
+	<AVP name="Password-Retry" code="75" type="int"></AVP>
+	<AVP name="Prompt" code="76" type="int"></AVP>
+	<AVP name="Connect-Info" code="77" type="str"></AVP>
+	<AVP name="Configuration-Token" code="78" type="str"></AVP>
+	<AVP name="EAP-Message" code="79" type="str"></AVP>
+	<AVP name="Signature" code="80" type="str"></AVP>
+	<AVP name="Tunnel-Private-Group-Id" code="81" type="str"></AVP>
+	<AVP name="Tunnel-Assignment-Id" code="82" type="str"></AVP>
+	<AVP name="Tunnel-Preference" code="83" type="int"></AVP>
+	<AVP name="ARAP-Challenge-Response" code="84" type="str"></AVP>
+	<AVP name="Acct-Interim-Interval" code="85" type="int"></AVP>
+	<AVP name="Acct-Tunnel-Packets-Lost" code="86" type="int"></AVP>
+	<AVP name="NAS-Port-Id" code="87" type="str"></AVP>
+	<AVP name="Framed-Pool" code="88" type="str"></AVP>
+	<AVP name="CUI" code="89" type="str"></AVP>
+	<AVP name="Tunnel-Client-Auth-Id" code="90" type="str"></AVP>
+	<AVP name="Tunnel-Server-Auth-Id" code="91" type="str"></AVP>
+	<AVP name="NAS-Filter-Rule" code="92" type="str"></AVP>
+	<AVP name="Unassigned" code="93" type="str"></AVP>
+	<AVP name="Originating-Line-Info" code="94" type="str"></AVP>
+	<AVP name="NAS-IPv6-Address" code="95" type="str"></AVP>
+	<AVP name="Framed-Interface-Id" code="96" type="int64"></AVP>
+	<AVP name="Framed-IPv6-Prefix" code="97" type="str"></AVP>
+	<AVP name="Login-IPv6-Host" code="98" type="str"></AVP>
+	<AVP name="Framed-IPv6-Route" code="99" type="str"></AVP>
+	<AVP name="Framed-IPv6-Pool" code="100" type="str"></AVP>
+	<AVP name="Error-Cause" code="101" type="int"></AVP>
+	<AVP name="EAP-Key-Name" code="102" type="str"></AVP>
+	<AVP name="Digest-Response" code="103" type="str"></AVP>
+	<AVP name="Digest-Realm" code="104" type="str"></AVP>
+	<AVP name="Digest-Nonce" code="105" type="str"></AVP>
+	<AVP name="Digest-Response-Auth" code="106" type="str"></AVP>
+	<AVP name="Digest-Nextnonce" code="107" type="str"></AVP>
+	<AVP name="Digest-Method" code="108" type="str"></AVP>
+	<AVP name="Digest-URI" code="109" type="str"></AVP>
+	<AVP name="Digest-Qop" code="110" type="str"></AVP>
+	<AVP name="Digest-Algorithm" code="111" type="str"></AVP>
+	<AVP name="Digest-Entity-Body-Hash" code="112" type="str"></AVP>
+	<AVP name="Digest-Digest-CNonce" code="113" type="str"></AVP>
+	<AVP name="Digest-Nonce-Count" code="114" type="str"></AVP>
+	<AVP name="Digest-Username" code="115" type="str"></AVP>
+	<AVP name="Digest-Opaque" code="116" type="str"></AVP>
+	<AVP name="Digest-Auth-Param" code="117" type="str"></AVP>
+	<AVP name="Digest-AKA-Auts" code="118" type="str"></AVP>
+	<AVP name="Digest-Domain" code="119" type="str"></AVP>
+	<AVP name="Digest-Stale" code="120" type="str"></AVP>
+	<AVP name="Digest-HA1" code="121" type="str"></AVP>
+	<AVP name="SIP-AOR" code="122" type="str"></AVP>
+	<AVP name="Delegated-IPv6-Prefix" code="123" type="str"></AVP>
+	<AVP name="MIP6-Feature-Vector" code="124" type="int64"></AVP>
+	<AVP name="MIP6-Home-Link-Prefix" code="125" type="str"></AVP>
+	<AVP name="Operator-Name" code="126" type="str"></AVP>
+	<AVP name="Location-Information" code="127" type="str"></AVP>
+	<AVP name="Location-Data" code="128" type="str"></AVP>
+	<AVP name="Basic-Location-Policy-Rules" code="129" type="str"></AVP>
+	<AVP name="Extended-Location-Policy-Rules" code="130" type="str"></AVP>
+	<AVP name="Location-Capable" code="131" type="str"></AVP>
+	<AVP name="Requested-Location-Info" code="132" type="str"></AVP>
+	<AVP name="Framed-Management-Protocol" code="133" type="int"></AVP>
+	<AVP name="Management-Transport-Protection" code="134" type="int"></AVP>
+	<AVP name="Management-Policy-Id" code="135" type="str"></AVP>
+	<AVP name="Management-Privilege-Level" code="136" type="int"></AVP>
+	<AVP name="PKM-SS-Cert" code="137" type="str"></AVP>
+	<AVP name="PKM-CA-Cert" code="138" type="str"></AVP>
+	<AVP name="PKM-Config-Settings" code="139" type="str"></AVP>
+	<AVP name="PKM-Cryptosuite-List" code="140" type="str"></AVP>
+	<AVP name="PPKM-SAID" code="141" type="str"></AVP>
+	<AVP name="PKM-SA-Descriptor" code="142" type="str"></AVP>
+	<AVP name="PKM-Auth-Key" code="143" type="str"></AVP>
+	<AVP name="Unassigned" code="144" type="str"></AVP>
+	<AVP name="Unassigned" code="145" type="str"></AVP>
+	<AVP name="Unassigned" code="146" type="str"></AVP>
+	<AVP name="Unassigned" code="147" type="str"></AVP>
+	<AVP name="Unassigned" code="148" type="str"></AVP>
+	<AVP name="Unassigned" code="149" type="str"></AVP>
+	<AVP name="Unassigned" code="150" type="str"></AVP>
+	<AVP name="Unassigned" code="151" type="str"></AVP>
+	<AVP name="Unassigned" code="152" type="str"></AVP>
+	<AVP name="Unassigned" code="153" type="str"></AVP>
+	<AVP name="Unassigned" code="154" type="str"></AVP>
+	<AVP name="Unassigned" code="155" type="str"></AVP>
+	<AVP name="Unassigned" code="156" type="str"></AVP>
+	<AVP name="Unassigned" code="157" type="str"></AVP>
+	<AVP name="Unassigned" code="158" type="str"></AVP>
+	<AVP name="Unassigned" code="159" type="str"></AVP>
+	<AVP name="Unassigned" code="160" type="str"></AVP>
+	<AVP name="Unassigned" code="161" type="str"></AVP>
+	<AVP name="Unassigned" code="162" type="str"></AVP>
+	<AVP name="Unassigned" code="163" type="str"></AVP>
+	<AVP name="Unassigned" code="164" type="str"></AVP>
+	<AVP name="Unassigned" code="165" type="str"></AVP>
+	<AVP name="Unassigned" code="166" type="str"></AVP>
+	<AVP name="Unassigned" code="167" type="str"></AVP>
+	<AVP name="Unassigned" code="168" type="str"></AVP>
+	<AVP name="Unassigned" code="169" type="str"></AVP>
+	<AVP name="Unassigned" code="170" type="str"></AVP>
+	<AVP name="Unassigned" code="171" type="str"></AVP>
+	<AVP name="Unassigned" code="172" type="str"></AVP>
+	<AVP name="Unassigned" code="173" type="str"></AVP>
+	<AVP name="Unassigned" code="174" type="str"></AVP>
+	<AVP name="Unassigned" code="175" type="str"></AVP>
+	<AVP name="Unassigned" code="176" type="str"></AVP>
+	<AVP name="Unassigned" code="177" type="str"></AVP>
+	<AVP name="Unassigned" code="178" type="str"></AVP>
+	<AVP name="Unassigned" code="179" type="str"></AVP>
+	<AVP name="Unassigned" code="180" type="str"></AVP>
+	<AVP name="Unassigned" code="181" type="str"></AVP>
+	<AVP name="Unassigned" code="182" type="str"></AVP>
+	<AVP name="Unassigned" code="183" type="str"></AVP>
+	<AVP name="Unassigned" code="184" type="str"></AVP>
+	<AVP name="Unassigned" code="185" type="str"></AVP>
+	<AVP name="Unassigned" code="186" type="str"></AVP>
+	<AVP name="Unassigned" code="187" type="str"></AVP>
+	<AVP name="Unassigned" code="188" type="str"></AVP>
+	<AVP name="Unassigned" code="189" type="str"></AVP>
+	<AVP name="Unassigned" code="190" type="str"></AVP>
+	<AVP name="Unassigned" code="191" type="str"></AVP>
+	<AVP name="Experimental-Use" code="192" type="str"></AVP>
+	<AVP name="Experimental-Use" code="193" type="str"></AVP>
+	<AVP name="Experimental-Use" code="194" type="str"></AVP>
+	<AVP name="Experimental-Use" code="195" type="str"></AVP>
+	<AVP name="Experimental-Use" code="196" type="str"></AVP>
+	<AVP name="Experimental-Use" code="197" type="str"></AVP>
+	<AVP name="Experimental-Use" code="198" type="str"></AVP>
+	<AVP name="Experimental-Use" code="199" type="str"></AVP>
+	<AVP name="Experimental-Use" code="200" type="str"></AVP>
+	<AVP name="Experimental-Use" code="201" type="str"></AVP>
+	<AVP name="Experimental-Use" code="202" type="str"></AVP>
+	<AVP name="Experimental-Use" code="203" type="str"></AVP>
+	<AVP name="Experimental-Use" code="204" type="str"></AVP>
+	<AVP name="Experimental-Use" code="205" type="str"></AVP>
+	<AVP name="Experimental-Use" code="206" type="str"></AVP>
+	<AVP name="Experimental-Use" code="207" type="str"></AVP>
+	<AVP name="Experimental-Use" code="208" type="str"></AVP>
+	<AVP name="Experimental-Use" code="209" type="str"></AVP>
+	<AVP name="Experimental-Use" code="210" type="str"></AVP>
+	<AVP name="Experimental-Use" code="211" type="str"></AVP>
+	<AVP name="Experimental-Use" code="212" type="str"></AVP>
+	<AVP name="Experimental-Use" code="213" type="str"></AVP>
+	<AVP name="Experimental-Use" code="214" type="str"></AVP>
+	<AVP name="Experimental-Use" code="215" type="str"></AVP>
+	<AVP name="Experimental-Use" code="216" type="str"></AVP>
+	<AVP name="Experimental-Use" code="217" type="str"></AVP>
+	<AVP name="Experimental-Use" code="218" type="str"></AVP>
+	<AVP name="Experimental-Use" code="219" type="str"></AVP>
+	<AVP name="Experimental-Use" code="220" type="str"></AVP>
+	<AVP name="Experimental-Use" code="221" type="str"></AVP>
+	<AVP name="Experimental-Use" code="222" type="str"></AVP>
+	<AVP name="Experimental-Use" code="223" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="224" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="225" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="226" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="227" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="228" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="229" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="230" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="231" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="232" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="233" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="234" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="235" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="236" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="237" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="238" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="239" type="str"></AVP>
+	<AVP name="Implementation-Specific" code="240" type="str"></AVP>
+	<AVP name="Reserved" code="241" type="str"></AVP>
+	<AVP name="Reserved" code="242" type="str"></AVP>
+	<AVP name="Reserved" code="243" type="str"></AVP>
+	<AVP name="Reserved" code="244" type="str"></AVP>
+	<AVP name="Reserved" code="245" type="str"></AVP>
+	<AVP name="Reserved" code="246" type="str"></AVP>
+	<AVP name="Reserved" code="247" type="str"></AVP>
+	<AVP name="Reserved" code="248" type="str"></AVP>
+	<AVP name="Reserved" code="249" type="str"></AVP>
+	<AVP name="Reserved" code="250" type="str"></AVP>
+	<AVP name="Reserved" code="251" type="str"></AVP>
+	<AVP name="Reserved" code="252" type="str"></AVP>
+	<AVP name="Reserved" code="253" type="str"></AVP>
+	<AVP name="Reserved" code="254" type="str"></AVP>
+	<AVP name="Reserved" code="255" type="str"></AVP>
+	<AVP name="Unassigned" code="256" type="str"></AVP>
+	<AVP name="Host-IP-Address" code="257" type="str"></AVP>
+	<AVP name="Auth-Application-Id" code="258" type="int"></AVP>
+	<AVP name="Acct-Application-Id" code="259" type="int"></AVP>
+	<AVP name="Vendor-Specific-Application-Id" code="260" type="grp"></AVP>
+	<AVP name="Redirect-Host-Usage" code="261" type="int"></AVP>
+	<AVP name="Redirect-Max-Cache-Time" code="262" type="int"></AVP>
+	<AVP name="Session-Id" code="263" type="str"></AVP>
+	<AVP name="Origin-Host" code="264" type="str"></AVP>
+	<AVP name="Supported-Vendor-Id" code="265" type="int"></AVP>
+	<AVP name="Vendor-Id" code="266" type="int"></AVP>
+	<AVP name="Firmware-Revision" code="267" type="int"></AVP>
+	<AVP name="Result-Code" code="268" type="int"></AVP>
+	<AVP name="Product-Name" code="269" type="str"></AVP>
+	<AVP name="Session-Binding" code="270" type="int"></AVP>
+	<AVP name="Session-Server-Failover" code="271" type="int"></AVP>
+	<AVP name="Multi-Round-Time-Out" code="272" type="int"></AVP>
+	<AVP name="Disconnect-Cause" code="273" type="int"></AVP>
+	<AVP name="Auth-Request-Type" code="274" type="int"></AVP>
+	<AVP name="Alternate-Peer" code="275" type="str"></AVP>
+	<AVP name="Auth-Grace-Period" code="276" type="int"></AVP>
+	<AVP name="Auth-Session-State" code="277" type="int"></AVP>
+	<AVP name="Origin-State-Id" code="278" type="int"></AVP>
+	<AVP name="Failed-AVP" code="279" type="grp"></AVP>
+	<AVP name="Proxy-Host" code="280" type="str"></AVP>
+	<AVP name="Error-Message" code="281" type="str"></AVP>
+	<AVP name="Route-Record" code="282" type="str"></AVP>
+	<AVP name="Destination-Realm" code="283" type="str"></AVP>
+	<AVP name="Proxy-Info" code="284" type="grp"></AVP>
+	<AVP name="Re-Auth-Request-Type" code="285" type="int"></AVP>
+	<AVP name="Unassigned" code="286" type="str"></AVP>
+	<AVP name="Accounting-Sub-Session-Id" code="287" type="int64"></AVP>
+	<AVP name="Unallocated" code="288" type="str"></AVP>
+	<AVP name="Unallocated" code="289" type="str"></AVP>
+	<AVP name="Unallocated" code="290" type="str"></AVP>
+	<AVP name="Authorization-Lifetime" code="291" type="int"></AVP>
+	<AVP name="Redirect-Host" code="292" type="str"></AVP>
+	<AVP name="Destination-Host" code="293" type="str"></AVP>
+	<AVP name="Error-Reporting-Host" code="294" type="str"></AVP>
+	<AVP name="Termination-Cause" code="295" type="int"></AVP>
+	<AVP name="Origin-Realm" code="296" type="str"></AVP>
+	<AVP name="Experimental-Result" code="297" type="grp"></AVP>
+	<AVP name="Experimental-Result-Code" code="298" type="int"></AVP>
+	<AVP name="Inband-Security-Id" code="299" type="int"></AVP>
+	<AVP name="E2E-Sequence" code="300" type="grp"></AVP>
+	<AVP name="Unallocated" code="301" type="str"></AVP>
+	<AVP name="Unallocated" code="302" type="str"></AVP>
+	<AVP name="Unallocated" code="303" type="str"></AVP>
+	<AVP name="Unallocated" code="304" type="str"></AVP>
+	<AVP name="Unallocated" code="305" type="str"></AVP>
+	<AVP name="Unallocated" code="306" type="str"></AVP>
+	<AVP name="Unallocated" code="307" type="str"></AVP>
+	<AVP name="Unallocated" code="308" type="str"></AVP>
+	<AVP name="Unallocated" code="309" type="str"></AVP>
+	<AVP name="Unallocated" code="310" type="str"></AVP>
+	<AVP name="Unallocated" code="311" type="str"></AVP>
+	<AVP name="Unallocated" code="312" type="str"></AVP>
+	<AVP name="Unallocated" code="313" type="str"></AVP>
+	<AVP name="Unallocated" code="314" type="str"></AVP>
+	<AVP name="Unallocated" code="315" type="str"></AVP>
+	<AVP name="Unallocated" code="316" type="str"></AVP>
+	<AVP name="Unallocated" code="317" type="str"></AVP>
+	<AVP name="MIP-FA-to-HA-SPI" code="318" type="int"></AVP>
+	<AVP name="MIP-FA-to-MN-SPI" code="319" type="int"></AVP>
+	<AVP name="MIP-Reg-Request" code="320" type="str"></AVP>
+	<AVP name="MIP-Reg-Reply" code="321" type="str"></AVP>
+	<AVP name="MIP-MN-AAA-Auth" code="322" type="grp"></AVP>
+	<AVP name="MIP-HA-to-FA-SPI" code="323" type="int"></AVP>
+	<AVP name="Unassigned" code="324" type="str"></AVP>
+	<AVP name="MIP-MN-to-FA-MSA" code="325" type="grp"></AVP>
+	<AVP name="MIP-FA-to-MN-MSA" code="326" type="grp"></AVP>
+	<AVP name="Unassigned" code="327" type="str"></AVP>
+	<AVP name="MIP-FA-to-HA-MSA" code="328" type="grp"></AVP>
+	<AVP name="MIP-HA-to-FA-MSA" code="329" type="grp"></AVP>
+	<AVP name="Unassigned" code="330" type="str"></AVP>
+	<AVP name="MIP-MN-to-HA-MSA" code="331" type="grp"></AVP>
+	<AVP name="MIP-HA-to-MN-MSA" code="332" type="grp"></AVP>
+	<AVP name="MIP-Mobile-Node-Address" code="333" type="str"></AVP>
+	<AVP name="MIP-Home-Agent-Address" code="334" type="str"></AVP>
+	<AVP name="MIP-Nonce" code="335" type="str"></AVP>
+	<AVP name="MIP-Candidate-Home-Agent-Host" code="336" type="str"></AVP>
+	<AVP name="MIP-Feature-Vector" code="337" type="int"></AVP>
+	<AVP name="MIP-Auth-Input-Data-Length" code="338" type="int"></AVP>
+	<AVP name="MIP-Authenticator-Length" code="339" type="int"></AVP>
+	<AVP name="MIP-Authenticator-Offset" code="340" type="int"></AVP>
+	<AVP name="MIP-MN-AAA-SPI" code="341" type="int"></AVP>
+	<AVP name="MIP-Filter-Rule" code="342" type="str"></AVP>
+	<AVP name="MIP-Session-Key" code="343" type="str"></AVP>
+	<AVP name="MIP-FA-Challenge" code="344" type="str"></AVP>
+	<AVP name="MIP-Algorithm-Type" code="345" type="int"></AVP>
+	<AVP name="MIP-Replay-Mode" code="346" type="int"></AVP>
+	<AVP name="MIP-Originating-Foreign-AAA" code="347" type="grp"></AVP>
+	<AVP name="MIP-Home-Agent-Host" code="348" type="grp"></AVP>
+	<AVP name="Unassigned" code="349" type="str"></AVP>
+	<AVP name="Unassigned" code="350" type="str"></AVP>
+	<AVP name="Unassigned" code="351" type="str"></AVP>
+	<AVP name="Unassigned" code="352" type="str"></AVP>
+	<AVP name="Unassigned" code="353" type="str"></AVP>
+	<AVP name="Unassigned" code="354" type="str"></AVP>
+	<AVP name="Unassigned" code="355" type="str"></AVP>
+	<AVP name="Unassigned" code="356" type="str"></AVP>
+	<AVP name="Unassigned" code="357" type="str"></AVP>
+	<AVP name="Unassigned" code="358" type="str"></AVP>
+	<AVP name="Unassigned" code="359" type="str"></AVP>
+	<AVP name="Unassigned" code="360" type="str"></AVP>
+	<AVP name="Unassigned" code="361" type="str"></AVP>
+	<AVP name="Unassigned" code="362" type="str"></AVP>
+	<AVP name="Accounting-Input-Octets" code="363" type="int64"></AVP>
+	<AVP name="Accounting-Output-Octets" code="364" type="int64"></AVP>
+	<AVP name="Accounting-Input-Packets" code="365" type="int64"></AVP>
+	<AVP name="Accounting-Output-Packets" code="366" type="int64"></AVP>
+	<AVP name="MIP-MSA-Lifetime" code="367" type="int"></AVP>
+	<AVP name="SIP-Accounting-Information" code="368" type="grp"></AVP>
+	<AVP name="SIP-Accounting-Server-URI" code="369" type="str"></AVP>
+	<AVP name="SIP-Credit-Control-Server-URI" code="370" type="str"></AVP>
+	<AVP name="SIP-Server-URI" code="371" type="str"></AVP>
+	<AVP name="SIP-Server-Capabilities" code="372" type="grp"></AVP>
+	<AVP name="SIP-Mandatory-Capability" code="373" type="int"></AVP>
+	<AVP name="SIP-Optional-Capability" code="374" type="int"></AVP>
+	<AVP name="SIP-Server-Assignment-Type" code="375" type="int"></AVP>
+	<AVP name="SIP-Auth-Data-Item" code="376" type="grp"></AVP>
+	<AVP name="SIP-Authentication-Scheme" code="377" type="int"></AVP>
+	<AVP name="SIP-Item-Number" code="378" type="int"></AVP>
+	<AVP name="SIP-Authenticate" code="379" type="grp"></AVP>
+	<AVP name="SIP-Authorization" code="380" type="grp"></AVP>
+	<AVP name="SIP-Authentication-Info" code="381" type="grp"></AVP>
+	<AVP name="SIP-Number-Auth-Items" code="382" type="int"></AVP>
+	<AVP name="SIP-Deregistration-Reason" code="383" type="grp"></AVP>
+	<AVP name="SIP-Reason-Code" code="384" type="int"></AVP>
+	<AVP name="SIP-Reason-Info" code="385" type="str"></AVP>
+	<AVP name="SIP-Visited-Network-Id" code="386" type="str"></AVP>
+	<AVP name="SIP-User-Authorization-Type" code="387" type="int"></AVP>
+	<AVP name="SIP-Supported-User-Data-Type" code="388" type="str"></AVP>
+	<AVP name="SIP-User-Data" code="389" type="grp"></AVP>
+	<AVP name="SIP-User-Data-Type" code="390" type="str"></AVP>
+	<AVP name="SIP-User-Data-Contents" code="391" type="str"></AVP>
+	<AVP name="SIP-User-Data-Already-Available" code="392" type="int"></AVP>
+	<AVP name="SIP-Method" code="393" type="str"></AVP>
+	<AVP name="Unassigned" code="394" type="str"></AVP>
+	<AVP name="Unassigned" code="395" type="str"></AVP>
+	<AVP name="Unassigned" code="396" type="str"></AVP>
+	<AVP name="Unassigned" code="397" type="str"></AVP>
+	<AVP name="Unassigned" code="398" type="str"></AVP>
+	<AVP name="Unassigned" code="399" type="str"></AVP>
+	<AVP name="NAS-Filter-Rule" code="400" type="str"></AVP>
+	<AVP name="Tunneling" code="401" type="grp"></AVP>
+	<AVP name="CHAP-Auth" code="402" type="grp"></AVP>
+	<AVP name="CHAP-Algorithm" code="403" type="int"></AVP>
+	<AVP name="CHAP-Ident" code="404" type="str"></AVP>
+	<AVP name="CHAP-Response" code="405" type="str"></AVP>
+	<AVP name="Accounting-Auth-Method" code="406" type="int"></AVP>
+	<AVP name="QoS-Filter-Rule" code="407" type="str"></AVP>
+	<AVP name="Origin-AAA-Protocol" code="408" type="int"></AVP>
+	<AVP name="Unassigned" code="409" type="str"></AVP>
+	<AVP name="Unassigned" code="410" type="str"></AVP>
+	<AVP name="CC-Correlation-Id" code="411" type="str"></AVP>
+	<AVP name="CC-Input-Octets" code="412" type="int64"></AVP>
+	<AVP name="CC-Money" code="413" type="grp"></AVP>
+	<AVP name="CC-Output-Octets" code="414" type="int64"></AVP>
+	<AVP name="CC-Request-Number" code="415" type="int"></AVP>
+	<AVP name="CC-Request-Type" code="416" type="int"></AVP>
+	<AVP name="CC-Service-Specific-Units" code="417" type="int64"></AVP>
+	<AVP name="CC-Session-Failover" code="418" type="int"></AVP>
+	<AVP name="CC-Sub-Session-Id" code="419" type="int64"></AVP>
+	<AVP name="CC-Time" code="420" type="int"></AVP>
+	<AVP name="CC-Total-Octets" code="421" type="int64"></AVP>
+	<AVP name="Check-Balance-Result" code="422" type="int"></AVP>
+	<AVP name="Cost-Information" code="423" type="grp"></AVP>
+	<AVP name="Cost-Unit" code="424" type="str"></AVP>
+	<AVP name="Currency-Code" code="425" type="int"></AVP>
+	<AVP name="Credit-Control" code="426" type="int"></AVP>
+	<AVP name="Credit-Control-Failure-Handling" code="427" type="int"></AVP>
+	<AVP name="Direct-Debiting-Failure-Handling" code="428" type="int"></AVP>
+	<AVP name="Exponent" code="429" type="int"></AVP>
+	<AVP name="Final-Unit-Indication" code="430" type="grp"></AVP>
+	<AVP name="Granted-Service-Unit" code="431" type="grp"></AVP>
+	<AVP name="Rating-Group" code="432" type="int"></AVP>
+	<AVP name="Redirect-Address-Type" code="433" type="int"></AVP>
+	<AVP name="Redirect-Server" code="434" type="grp"></AVP>
+	<AVP name="Redirect-Server-Address" code="435" type="str"></AVP>
+	<AVP name="Requested-Action" code="436" type="int"></AVP>
+	<AVP name="Requested-Service-Unit" code="437" type="grp"></AVP>
+	<AVP name="Restricted-Filter-Rule" code="438" type="str"></AVP>
+	<AVP name="Service-Identifier" code="439" type="int"></AVP>
+	<AVP name="Service-Parameter-Info" code="440" type="grp"></AVP>
+	<AVP name="Service-Parameter-Type" code="441" type="int"></AVP>
+	<AVP name="Service-Parameter-Value" code="442" type="str"></AVP>
+	<AVP name="Subscription-Id" code="443" type="grp"></AVP>
+	<AVP name="Subscription-Id-Data" code="444" type="str"></AVP>
+	<AVP name="Unit-Value" code="445" type="grp"></AVP>
+	<AVP name="Used-Service-Unit" code="446" type="grp"></AVP>
+	<AVP name="Value-Digits" code="447" type="int64"></AVP>
+	<AVP name="Validity-Time" code="448" type="int"></AVP>
+	<AVP name="Final-Unit-Action" code="449" type="int"></AVP>
+	<AVP name="Subscription-Id-Type" code="450" type="int"></AVP>
+	<AVP name="Tariff-Time-Change" code="451" type="int"></AVP>
+	<AVP name="Tariff-Change-Usage" code="452" type="int"></AVP>
+	<AVP name="G-S-U-Pool-Identifier" code="453" type="int"></AVP>
+	<AVP name="CC-Unit-Type" code="454" type="int"></AVP>
+	<AVP name="Multiple-Services-Indicator" code="455" type="int"></AVP>
+	<AVP name="Multiple-Services-Credit-Control" code="456" type="grp"></AVP>
+	<AVP name="G-S-U-Pool-Reference" code="457" type="grp"></AVP>
+	<AVP name="User-Equipment-Info" code="458" type="grp"></AVP>
+	<AVP name="User-Equipment-Info-Type" code="459" type="int"></AVP>
+	<AVP name="User-Equipment-Info-Value" code="460" type="str"></AVP>
+	<AVP name="Service-Context-Id" code="461" type="str"></AVP>
+	<AVP name="EAP-Payload" code="462" type="str"></AVP>
+	<AVP name="EAP-Reissued-Payload" code="463" type="str"></AVP>
+	<AVP name="EAP-Master-Session-Key" code="464" type="str"></AVP>
+	<AVP name="Accounting-EAP-Auth-Method" code="465" type="int64"></AVP>
+	<AVP name="Unassigned" code="466" type="str"></AVP>
+	<AVP name="Unassigned" code="467" type="str"></AVP>
+	<AVP name="Unassigned" code="468" type="str"></AVP>
+	<AVP name="Unassigned" code="469" type="str"></AVP>
+	<AVP name="Unassigned" code="470" type="str"></AVP>
+	<AVP name="Unassigned" code="471" type="str"></AVP>
+	<AVP name="Unassigned" code="472" type="str"></AVP>
+	<AVP name="Unassigned" code="473" type="str"></AVP>
+	<AVP name="Unassigned" code="474" type="str"></AVP>
+	<AVP name="Unassigned" code="475" type="str"></AVP>
+	<AVP name="Unassigned" code="476" type="str"></AVP>
+	<AVP name="Unassigned" code="477" type="str"></AVP>
+	<AVP name="Unassigned" code="478" type="str"></AVP>
+	<AVP name="Unassigned" code="479" type="str"></AVP>
+	<AVP name="Accounting-Record-Type" code="480" type="int"></AVP>
+	<AVP name="Unassigned" code="481" type="str"></AVP>
+	<AVP name="Unassigned" code="482" type="str"></AVP>
+	<AVP name="Accounting-Realtime-Required" code="483" type="int"></AVP>
+	<AVP name="Unassigned" code="484" type="str"></AVP>
+	<AVP name="Accounting-Record-Number" code="485" type="int"></AVP>
+	<AVP name="MIP6-Agent-Info" code="486" type="grp"></AVP>
+	<AVP name="MIP-Careof-Address" code="487" type="str"></AVP>
+	<AVP name="MIP-Authenticator" code="488" type="str"></AVP>
+	<AVP name="MIP-MAC-Mobility-Data" code="489" type="str"></AVP>
+	<AVP name="MIP-Timestamp" code="490" type="str"></AVP>
+	<AVP name="MIP-MN-HA-SPI" code="491" type="int"></AVP>
+	<AVP name="MIP-MN-HA-MSA" code="492" type="grp"></AVP>
+	<AVP name="Service-Selection" code="493" type="str"></AVP>
+	<AVP name="MIP6-Auth-Mode" code="494" type="int"></AVP>
+	<AVP name="TMOD-1" code="495" type="grp"></AVP>
+	<AVP name="Token-Rate" code="496" type="str"></AVP>
+	<AVP name="Bucket-Depth" code="497" type="str"></AVP>
+	<AVP name="Peak-Traffic-Rate" code="498" type="str"></AVP>
+	<AVP name="Minimum-Policed-Unit" code="499" type="int"></AVP>
+	<AVP name="Maximum-Packet-Size" code="500" type="int"></AVP>
+	<AVP name="TMOD-2" code="501" type="grp"></AVP>
+	<AVP name="Bandwidth" code="502" type="str"></AVP>
+	<AVP name="PHB-Class" code="503" type="int"></AVP>
+	<AVP name="PMIP6-DHCP-Server-Address" code="504" type="str"></AVP>
+	<AVP name="PMIP6-IPv4-Home-Address" code="505" type="str"></AVP>
+	<AVP name="Mobile-Node-Identifier" code="506" type="str"></AVP>
+	<AVP name="Service-Configuration" code="507" type="grp"></AVP>
+	<AVP name="Port" code="530" type="int"></AVP>
+	<AVP name="Port-Range" code="531" type="grp"></AVP>
+	<AVP name="Port-Start" code="532" type="int"></AVP>
+	<AVP name="Port-End" code="533" type="int"></AVP>
+</Vendor>
+<!--vendor=42, Sun-->
+<Vendor vendorcode="42" vendorname="Sun">
+	<AVP name="Ping-Timestamp-Secs" code="1" type="int"></AVP>
+	<AVP name="Ping-Timestamp-Usecs" code="2" type="int"></AVP>
+	<AVP name="Ping-Timestamp" code="3" type="grp"></AVP>
+</Vendor>
+<!--vendor=94, Nokia-->
+<Vendor vendorcode="94" vendorname="Nokia">
+	<AVP name="Nokia-IMS-Media-Component-Id" code="5101" type="int"></AVP>
+	<AVP name="Time-Of-First-Usage" code="5103" type="int"></AVP>
+	<AVP name="Time-Of-Last-Usage" code="5104" type="int"></AVP>
+	<AVP name="Session-Start-Indicator" code="5105" type="str"></AVP>
+	<AVP name="Rulebase-Id" code="5106" type="str"></AVP>
+	<AVP name="Quota-Consumption-Time" code="5109" type="int"></AVP>
+	<AVP name="Quota-Holding-Time" code="5110" type="int"></AVP>
+	<AVP name="Default-Quota" code="5111" type="grp"></AVP>
+	<AVP name="Nokia-URI" code="5112" type="str"></AVP>
+	<AVP name="NSN-Token-Value" code="5113" type="str"></AVP>
+</Vendor>
+<!--vendor=193, Ericsson-->
+<Vendor vendorcode="193" vendorname="Ericsson">
+	<AVP name="Acc-Service-Type" code="261" type="int"></AVP>
+	<AVP name="Rule-Space-Suggestion" code="290" type="str"></AVP>
+	<AVP name="Rule-Space-Decision" code="291" type="str"></AVP>
+	<AVP name="Bearer-Control-Options" code="292" type="int"></AVP>
+	<AVP name="Currency-Code" code="544" type="int"></AVP>
+	<AVP name="Subscription-Id" code="553" type="grp"></AVP>
+	<AVP name="Subscription-Id-Data" code="554" type="str"></AVP>
+	<AVP name="Subscription-Id-Type" code="555" type="int"></AVP>
+	<AVP name="Original-Subscription-Id" code="559" type="grp"></AVP>
+	<AVP name="Abnormal-Termination-Reason" code="600" type="int"></AVP>
+	<AVP name="Final-Unit-Indication" code="601" type="int"></AVP>
+	<AVP name="Granted-Service-Unit" code="602" type="grp"></AVP>
+	<AVP name="Cost" code="603" type="str"></AVP>
+	<AVP name="Cost-Information" code="604" type="grp"></AVP>
+	<AVP name="Accounting-Correlation-Id" code="605" type="str"></AVP>
+	<AVP name="Requested-Service-Unit" code="606" type="grp"></AVP>
+	<AVP name="Service-Parameter-Info" code="607" type="grp"></AVP>
+	<AVP name="Service-Parameter-Type" code="608" type="int"></AVP>
+	<AVP name="Service-Parameter-Value" code="609" type="str"></AVP>
+	<AVP name="Event-Timestamp" code="610" type="int"></AVP>
+	<AVP name="Unit-Type" code="611" type="int"></AVP>
+	<AVP name="Unit-Value" code="612" type="grp"></AVP>
+	<AVP name="Used-Service-Unit" code="613" type="grp"></AVP>
+	<AVP name="Check-Balance-Result" code="614" type="int"></AVP>
+	<AVP name="Requested-Action" code="615" type="int"></AVP>
+	<AVP name="Exponent" code="616" type="int"></AVP>
+	<AVP name="Value-Digits" code="617" type="int64"></AVP>
+	<AVP name="Charging-Rule-Authorization" code="1055" type="grp"></AVP>
+	<AVP name="Authorization-State" code="1056" type="int"></AVP>
+	<AVP name="Authorization-State-Change-Time" code="1057" type="str"></AVP>
+	<AVP name="Next-Authorization-State" code="1059" type="int"></AVP>
+	<AVP name="Gx-Capability-List" code="1060" type="int"></AVP>
+	<AVP name="Customer-Id" code="1146" type="str"></AVP>
+</Vendor>
+<!--vendor=637, ALU-->
+<Vendor vendorcode="637" vendorname="ALU">
+	<AVP name="Detailed-Result" code="15" type="grp"></AVP>
+	<AVP name="Detailed-Result-Cause" code="16" type="str"></AVP>
+	<AVP name="Detailed-Result-Code" code="17" type="int"></AVP>
+	<AVP name="Charging-Policy-Report" code="1134" type="grp"></AVP>
+	<AVP name="Policy-Counter" code="1135" type="grp"></AVP>
+	<AVP name="Policy-Counter-Id" code="1136" type="str"></AVP>
+	<AVP name="Policy-Counter-Value" code="1137" type="int"></AVP>
+</Vendor>
+<!--vendor=5535, TGPP2-->
+<Vendor vendorcode="5535" vendorname="TGPP2">
+	<AVP name="Bearer-Usage" code="1000" type="int"></AVP>
+	<AVP name="Charging-Rule-Install" code="1001" type="grp"></AVP>
+	<AVP name="Charging-Rule-Remove" code="1002" type="grp"></AVP>
+	<AVP name="Charging-Rule-Definition" code="1003" type="grp"></AVP>
+	<AVP name="Charging-Rule-Base-Name" code="1004" type="str"></AVP>
+	<AVP name="Charging-Rule-Name" code="1005" type="str"></AVP>
+	<AVP name="Event-Trigger" code="1006" type="int"></AVP>
+	<AVP name="Metering-Method" code="1007" type="int"></AVP>
+	<AVP name="Offline" code="1008" type="int"></AVP>
+	<AVP name="Online" code="1009" type="int"></AVP>
+	<AVP name="Precedence" code="1010" type="int"></AVP>
+	<AVP name="Primary-CCF-Address" code="1011" type="str"></AVP>
+	<AVP name="Primary-OCS-Address" code="1012" type="str"></AVP>
+	<AVP name="Reporting-Level" code="1014" type="int"></AVP>
+	<AVP name="Secondary-CCF-Address" code="1015" type="str"></AVP>
+	<AVP name="Secondary-OCS-Address" code="1016" type="str"></AVP>
+	<AVP name="TFT-Filter" code="1017" type="str"></AVP>
+	<AVP name="TFT-Packet-Filter-Information" code="1018" type="grp"></AVP>
+	<AVP name="ToS-Traffic-Class" code="1019" type="str"></AVP>
+	<AVP name="3GPP2-BSID" code="9010" type="str"></AVP>
+</Vendor>
+<!--vendor=5771, Cisco-->
+<Vendor vendorcode="5771" vendorname="Cisco">
+	<AVP name="Flow-Description" code="507" type="str"></AVP>
+	<AVP name="Cisco-Charging-Rule-Definition" code="131072" type="grp"></AVP>
+	<AVP name="Content-Definition" code="131073" type="grp"></AVP>
+	<AVP name="Billing-Policy-Definition" code="131074" type="grp"></AVP>
+	<AVP name="Policy-Map-Definition" code="131075" type="grp"></AVP>
+	<AVP name="Service-Definition" code="131076" type="grp"></AVP>
+	<AVP name="Content-Policy-Map" code="131077" type="grp"></AVP>
+	<AVP name="Service-Info" code="131078" type="grp"></AVP>
+	<AVP name="Billing-Plan-Definition" code="131079" type="grp"></AVP>
+	<AVP name="Volume-Threshold" code="131080" type="int"></AVP>
+	<AVP name="Time-Threshold" code="131081" type="int"></AVP>
+	<AVP name="Content-Idle-Timer" code="131082" type="int"></AVP>
+	<AVP name="Nexthop-Uplink" code="131083" type="str"></AVP>
+	<AVP name="Nexthop-Downlink" code="131084" type="str"></AVP>
+	<AVP name="L7-Parse-Protocol-Type" code="131085" type="int"></AVP>
+	<AVP name="Service-Status" code="131086" type="grp"></AVP>
+	<AVP name="Service-Name" code="131087" type="str"></AVP>
+	<AVP name="Biling-Policy-Name" code="131088" type="str"></AVP>
+	<AVP name="Policy-Map-Name" code="131089" type="str"></AVP>
+	<AVP name="Policy-Map-Match" code="131090" type="grp"></AVP>
+	<AVP name="Match-String" code="131091" type="str"></AVP>
+	<AVP name="Attribute-String" code="131092" type="str"></AVP>
+	<AVP name="Online-Billing-Basis" code="131093" type="int"></AVP>
+	<AVP name="Service-Activation" code="131094" type="int"></AVP>
+	<AVP name="CDR-Volume-Threshold" code="131095" type="int"></AVP>
+	<AVP name="CDR-Time-Threshold" code="131096" type="int"></AVP>
+	<AVP name="Advice-Of-Charge" code="131097" type="grp"></AVP>
+	<AVP name="Append-URL" code="131098" type="int"></AVP>
+	<AVP name="Confirm-Token" code="131099" type="str"></AVP>
+	<AVP name="Service-Class" code="131100" type="int"></AVP>
+	<AVP name="Service-Idle-Time" code="131101" type="int"></AVP>
+	<AVP name="Owner-Id" code="131102" type="str"></AVP>
+	<AVP name="Owner-Name" code="131103" type="str"></AVP>
+	<AVP name="Online-Passthrough-Quota" code="131104" type="int"></AVP>
+	<AVP name="Online-Reauthorization-Threshold" code="131105" type="int"></AVP>
+	<AVP name="Online-Reauthorization-Timeout" code="131106" type="grp"></AVP>
+	<AVP name="Initial-Timeout" code="131107" type="int"></AVP>
+	<AVP name="Maximum-Timeout" code="131108" type="int"></AVP>
+	<AVP name="Refund-policy" code="131109" type="str"></AVP>
+	<AVP name="Meter-Exclude" code="131110" type="int"></AVP>
+	<AVP name="Meter-Include-Imap" code="131111" type="int"></AVP>
+	<AVP name="Metering-Granularity" code="131112" type="grp"></AVP>
+	<AVP name="Meter-Increment" code="131113" type="int"></AVP>
+	<AVP name="Meter-Initial" code="131114" type="int"></AVP>
+	<AVP name="Meter-Minimum" code="131115" type="int"></AVP>
+	<AVP name="Verify" code="131116" type="grp"></AVP>
+	<AVP name="Confirm-Token" code="131117" type="str"></AVP>
+	<AVP name="Weight" code="131118" type="int"></AVP>
+	<AVP name="User-Idle-Timer" code="131119" type="int"></AVP>
+	<AVP name="Policy-Preload-Req-Type" code="131120" type="int"></AVP>
+	<AVP name="Policy-Preload-Object-Type" code="131121" type="int"></AVP>
+	<AVP name="Policy-Preload-Status" code="131122" type="int"></AVP>
+	<AVP name="Charging-Rule-Trigger-Type" code="131123" type="int"></AVP>
+	<AVP name="Charging-Rule-Event" code="131124" type="grp"></AVP>
+	<AVP name="Service-Reporting-Level" code="131125" type="int"></AVP>
+	<AVP name="Accounting" code="131126" type="grp"></AVP>
+	<AVP name="Accounting-Customer-String" code="131127" type="str"></AVP>
+	<AVP name="L7-Parse-Length" code="131128" type="int"></AVP>
+	<AVP name="Service-CDR-Threshold" code="131129" type="grp"></AVP>
+	<AVP name="Intermediate-CDR-Threshold" code="131130" type="grp"></AVP>
+	<AVP name="CDR-Generation-Delay" code="131131" type="int"></AVP>
+	<AVP name="Replicate-Session" code="131132" type="grp"></AVP>
+	<AVP name="Replicate-Session-Delay" code="131133" type="int"></AVP>
+	<AVP name="Content-Pending-Timer" code="131134" type="int"></AVP>
+	<AVP name="Operation-Status" code="131135" type="int"></AVP>
+	<AVP name="Subscriber-IP-Source" code="131136" type="int"></AVP>
+	<AVP name="Nexthop" code="131137" type="str"></AVP>
+	<AVP name="Nexthop-Reverse" code="131138" type="str"></AVP>
+	<AVP name="Charging-Rule-Event-Trigger" code="131139" type="grp"></AVP>
+	<AVP name="Billing-Plan-Name" code="131140" type="str"></AVP>
+	<AVP name="Content-Flow-Description" code="131141" type="grp"></AVP>
+	<AVP name="Content-Flow-Filter" code="131142" type="grp"></AVP>
+	<AVP name="Client-Group-Id" code="131143" type="grp"></AVP>
+	<AVP name="ACL-Number" code="131144" type="int"></AVP>
+	<AVP name="ACL-Name" code="131145" type="str"></AVP>
+	<AVP name="Destination-IP-Address" code="131146" type="str"></AVP>
+	<AVP name="Destination-Mask" code="131147" type="str"></AVP>
+	<AVP name="Protocol-ID" code="131148" type="int"></AVP>
+	<AVP name="Start-of-Port-Range" code="131149" type="int"></AVP>
+	<AVP name="End-of-Port-Range" code="131150" type="int"></AVP>
+	<AVP name="Content-Name" code="131151" type="str"></AVP>
+	<AVP name="Failed-Preload-Object" code="131152" type="grp"></AVP>
+	<AVP name="VRF-Name" code="131153" type="str"></AVP>
+	<AVP name="VLAN-Id" code="131154" type="int"></AVP>
+	<AVP name="Volume-Usage" code="131155" type="int64"></AVP>
+	<AVP name="Time-Usage" code="131156" type="grp"></AVP>
+	<AVP name="Duration" code="131157" type="int"></AVP>
+	<AVP name="First-Packet-Timestanp" code="131158" type="int"></AVP>
+	<AVP name="Last-Packet-Timestanp" code="131159" type="int"></AVP>
+	<AVP name="Cisco-Flow-Description" code="131160" type="grp"></AVP>
+	<AVP name="Terminate-Bearer" code="131161" type="grp"></AVP>
+	<AVP name="Service-Rating-Group" code="131162" type="int"></AVP>
+	<AVP name="Content-Scope" code="131163" type="int"></AVP>
+	<AVP name="Flow-Status-Policy-Mismatch" code="131164" type="int"></AVP>
+	<AVP name="Policy-Map-Type" code="131165" type="int"></AVP>
+	<AVP name="Policy-Map-Match-Install" code="131166" type="grp"></AVP>
+	<AVP name="Policy-Map-Match-Remove" code="131167" type="grp"></AVP>
+	<AVP name="Policy-Map-Replace" code="131168" type="int"></AVP>
+	<AVP name="Cisco-Flow-Status" code="131169" type="int"></AVP>
+	<AVP name="Service-QoS" code="131170" type="grp"></AVP>
+	<AVP name="QoS-Rate-Limit-UL" code="131171" type="grp"></AVP>
+	<AVP name="QoS-Rate-Limit-DL" code="131172" type="grp"></AVP>
+	<AVP name="QoS-Rate-Limit" code="131173" type="grp"></AVP>
+	<AVP name="Max-Bandwidth" code="131174" type="int"></AVP>
+	<AVP name="Rate-Limit-Conform-Action" code="131175" type="grp"></AVP>
+	<AVP name="Rate-Limit-Exceed-Action" code="131176" type="grp"></AVP>
+	<AVP name="Rate-Limit-Action" code="131177" type="int"></AVP>
+	<AVP name="DSCP" code="131178" type="int"></AVP>
+	<AVP name="Policy-Map-Install" code="131179" type="grp"></AVP>
+	<AVP name="Policy-Map-Remove" code="131180" type="grp"></AVP>
+	<AVP name="Billing-Policy-Install" code="131181" type="grp"></AVP>
+	<AVP name="Billing-Policy-Remove" code="131182" type="grp"></AVP>
+	<AVP name="Content-Install" code="131183" type="grp"></AVP>
+	<AVP name="Content-Remove" code="131184" type="grp"></AVP>
+	<AVP name="Service-Install" code="131185" type="grp"></AVP>
+	<AVP name="Service-Remove" code="131186" type="grp"></AVP>
+	<AVP name="Billing-Plan-Install" code="131187" type="grp"></AVP>
+	<AVP name="Billing-Plan-Remove" code="131188" type="grp"></AVP>
+	<AVP name="Policy-Preload-Error-Code" code="131189" type="int"></AVP>
+	<AVP name="Max-Burst-Size" code="131190" type="int"></AVP>
+	<AVP name="Failed-Preload-Obj-Name" code="131191" type="grp"></AVP>
+	<AVP name="Cisco-Event-Trigger-Type" code="131192" type="int"></AVP>
+	<AVP name="Cisco-Event-Trigger" code="131193" type="grp"></AVP>
+	<AVP name="TCP-SYN" code="131194" type="str"></AVP>
+	<AVP name="Cisco-Event" code="131195" type="grp"></AVP>
+	<AVP name="Interleaved" code="131196" type="int"></AVP>
+	<AVP name="Control-URL" code="131197" type="grp"></AVP>
+	<AVP name="Relative-URL" code="131198" type="int"></AVP>
+	<AVP name="Mining" code="131199" type="int"></AVP>
+	<AVP name="User-Default" code="131200" type="int"></AVP>
+	<AVP name="Priority" code="131201" type="int"></AVP>
+	<AVP name="Domain-Group-Name" code="131202" type="str"></AVP>
+	<AVP name="Domain-Group-Definition" code="131203" type="grp"></AVP>
+	<AVP name="Domain-Group-Install" code="131204" type="grp"></AVP>
+	<AVP name="Domain-Group-Remove" code="131205" type="grp"></AVP>
+	<AVP name="Domain-Group-Activation" code="131206" type="int"></AVP>
+	<AVP name="Dual-Billing-Basis" code="131207" type="int"></AVP>
+	<AVP name="Dual-Passthrough-Quota" code="131208" type="int"></AVP>
+	<AVP name="Dual-Reauthorization-Threshold" code="131209" type="int"></AVP>
+	<AVP name="Virtual-Online" code="131210" type="int"></AVP>
+	<AVP name="Nexthop-Media" code="131211" type="str"></AVP>
+	<AVP name="Nexthop-Override" code="131212" type="int"></AVP>
+	<AVP name="Quota-Consumption-Time" code="131213" type="int"></AVP>
+	<AVP name="Class-Map-Name" code="131214" type="str"></AVP>
+	<AVP name="Header-Group-Name" code="131215" type="str"></AVP>
+	<AVP name="Header-Group-Definition" code="131216" type="grp"></AVP>
+	<AVP name="Header-Group-Install" code="131217" type="grp"></AVP>
+	<AVP name="Header-Group-Remove" code="131218" type="grp"></AVP>
+	<AVP name="Header-Insert-Name" code="131219" type="str"></AVP>
+	<AVP name="Header-Field-Name" code="131220" type="str"></AVP>
+	<AVP name="Header-Class-Name" code="131221" type="str"></AVP>
+	<AVP name="Header-Class-Mode" code="131222" type="int"></AVP>
+	<AVP name="Header-Class" code="131223" type="grp"></AVP>
+	<AVP name="Radius-Attribute-Type" code="131224" type="int"></AVP>
+	<AVP name="Radius-Vsa-Vendor-Id" code="131225" type="int"></AVP>
+	<AVP name="Radius-Vsa-Subattribute-Type" code="131226" type="int"></AVP>
+	<AVP name="Header-Item-Radius" code="131227" type="grp"></AVP>
+	<AVP name="Header-Item" code="131228" type="int"></AVP>
+	<AVP name="Header-Item-String" code="131229" type="str"></AVP>
+	<AVP name="Header-Items-Encrypted" code="131230" type="grp"></AVP>
+	<AVP name="Header-Insert-Definition" code="131231" type="grp"></AVP>
+	<AVP name="Header-Insert-Install" code="131232" type="grp"></AVP>
+	<AVP name="Header-Insert-Remove" code="131233" type="grp"></AVP>
+	<AVP name="User-Idle-Pod" code="131234" type="int"></AVP>
+	<AVP name="Domain-Group-Clear" code="131235" type="int"></AVP>
+	<AVP name="Cisco-QoS-Profile-Name" code="131236" type="str"></AVP>
+	<AVP name="Cisco-QoS-Profile" code="131237" type="grp"></AVP>
+	<AVP name="Cisco-QoS-Profile-Install" code="131238" type="grp"></AVP>
+	<AVP name="Cisco-QoS-Profile-Remove" code="131239" type="grp"></AVP>
+	<AVP name="Cisco-QoS-Profile-Uplink" code="131240" type="grp"></AVP>
+	<AVP name="Cisco-QoS-Profile-Downlink" code="131241" type="grp"></AVP>
+	<AVP name="Header-Item-Encryption" code="131242" type="int"></AVP>
+	<AVP name="Service-Group-Name" code="131243" type="str"></AVP>
+	<AVP name="Service-Group-Definition" code="131244" type="grp"></AVP>
+	<AVP name="Service-Group-Install" code="131245" type="grp"></AVP>
+	<AVP name="Service-Group-Remove" code="131246" type="grp"></AVP>
+	<AVP name="Service-Group-Event" code="131247" type="grp"></AVP>
+	<AVP name="Cisco-Report-Usage" code="131248" type="grp"></AVP>
+	<AVP name="Accel" code="131249" type="int"></AVP>
+	<AVP name="Cisco-Answer-User-Usage" code="131250" type="grp"></AVP>
+	<AVP name="Cisco-Request-Usage-Type" code="131251" type="int"></AVP>
+	<AVP name="Cisco-Request-Charging-Rule-Usage" code="131252" type="grp"></AVP>
+	<AVP name="Cisco-Request-Service-Group-Usage" code="131253" type="grp"></AVP>
+	<AVP name="Cisco-Answer-Charging-Rule-Usage" code="131254" type="grp"></AVP>
+	<AVP name="Cisco-Answer-Service-Group-Usage" code="131255" type="grp"></AVP>
+	<AVP name="User-Agent" code="131256" type="str"></AVP>
+	<AVP name="Service-Life-Time" code="131257" type="int"></AVP>
+	<AVP name="Volume-Threshold-64" code="131258" type="int64"></AVP>
+	<AVP name="Delegated-IP-Install" code="131259" type="grp"></AVP>
+	<AVP name="Delegated-IPv4-Definition" code="131260" type="grp"></AVP>
+	<AVP name="Delegated-IPv6-Definition" code="131261" type="grp"></AVP>
+	<AVP name="Aggr-Prefix-Len" code="131262" type="int"></AVP>
+	<AVP name="Service-Identifier-Lo" code="131263" type="int"></AVP>
+	<AVP name="Service-Identifier-Hi" code="131264" type="int"></AVP>
+	<AVP name="Service-Identifier-Range" code="131265" type="grp"></AVP>
+</Vendor>
+<!--vendor=5806, SKT-->
+<Vendor vendorcode="5806" vendorname="SKT">
+	<AVP name="Dummy" code="0" type="int"></AVP>
+</Vendor>
+<!--vendor=8164, Starent-->
+<Vendor vendorcode="8164" vendorname="Starent">
+	<AVP name="SN-VPN-ID" code="1" type="int"></AVP>
+	<AVP name="SN-VPN-Name" code="2" type="str"></AVP>
+	<AVP name="SN-Disconnect-Reason" code="3" type="int"></AVP>
+	<AVP name="SN-PPP-Progress-Code" code="4" type="int"></AVP>
+	<AVP name="SN-Primary-DNS-Server" code="5" type="str"></AVP>
+	<AVP name="SN-Secondary-DNS-Server" code="6" type="str"></AVP>
+	<AVP name="SN-Re-CHAP-Interval" code="7" type="int"></AVP>
+	<AVP name="SN-PDSN-Correlation-Id" code="8" type="str"></AVP>
+	<AVP name="SN-PPP-Data-Compression" code="9" type="int"></AVP>
+	<AVP name="SN-IP-Filter-In" code="10" type="str"></AVP>
+	<AVP name="SN-IP-Filter-Out" code="11" type="str"></AVP>
+	<AVP name="SN-Local-IP-Address" code="13" type="str"></AVP>
+	<AVP name="SN-IP-Source-Validation" code="14" type="int"></AVP>
+	<AVP name="SN-PPP-Outbound-Password" code="15" type="str"></AVP>
+	<AVP name="SN-PPP-Keepalive" code="16" type="int"></AVP>
+	<AVP name="SN-IP-In-ACL" code="17" type="str"></AVP>
+	<AVP name="SN-IP-Out-ACL" code="18" type="str"></AVP>
+	<AVP name="SN-PPP-Data-Compression-Mode" code="19" type="int"></AVP>
+	<AVP name="SN-Subscriber-Permission" code="20" type="int"></AVP>
+	<AVP name="SN-Admin-Permission" code="21" type="int"></AVP>
+	<AVP name="SN-Simultaneous-SIP-MIP" code="22" type="int"></AVP>
+	<AVP name="SN-Min-Compress-Size" code="23" type="int"></AVP>
+	<AVP name="SN-Service-Type" code="24" type="int"></AVP>
+	<AVP name="SN-DNS-Proxy-Use-Subscr-Addr" code="25" type="int"></AVP>
+	<AVP name="SN-Tunnel-Password" code="26" type="str"></AVP>
+	<AVP name="SN-Tunnel-Load-Balancing" code="27" type="int"></AVP>
+	<AVP name="SN-MN-HA-Timestamp-Tolerance" code="30" type="int"></AVP>
+	<AVP name="SN-Prepaid-Compressed-Count" code="31" type="int"></AVP>
+	<AVP name="SN-Prepaid-Inbound-Octets" code="32" type="int"></AVP>
+	<AVP name="SN-Prepaid-Outbound-Octets" code="33" type="int"></AVP>
+	<AVP name="SN-Prepaid-Total-Octets" code="34" type="int"></AVP>
+	<AVP name="SN-Prepaid-Timeout" code="35" type="int"></AVP>
+	<AVP name="SN-Prepaid-Watermark" code="36" type="int"></AVP>
+	<AVP name="SN-NAI-Construction-Domain" code="37" type="str"></AVP>
+	<AVP name="SN-Tunnel-ISAKMP-Crypto-Map" code="38" type="str"></AVP>
+	<AVP name="SN-Tunnel-ISAKMP-Secret" code="39" type="str"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Context" code="41" type="str"></AVP>
+	<AVP name="SN-L3-to-L2-Tun-Addr-Policy" code="43" type="int"></AVP>
+	<AVP name="SN-Long-Duration-Timeout" code="44" type="int"></AVP>
+	<AVP name="SN-Long-Duration-Action" code="45" type="int"></AVP>
+	<AVP name="SN-PDSN-Handoff-Req-IP-Addr" code="46" type="int"></AVP>
+	<AVP name="SN-HA-Send-DNS-ADDRESS" code="47" type="int"></AVP>
+	<AVP name="SN-MIP-Send-Term-Verification" code="48" type="int"></AVP>
+	<AVP name="SN-Data-Tunnel-Ignore-DF-Bit" code="49" type="int"></AVP>
+	<AVP name="SN-MIP-AAA-Assign-Addr" code="50" type="int"></AVP>
+	<AVP name="SN-MIP-Match-AAA-Assign-Addr" code="51" type="int"></AVP>
+	<AVP name="SN-Proxy-MIP" code="52" type="int"></AVP>
+	<AVP name="SN-IP-Alloc-Method" code="53" type="int"></AVP>
+	<AVP name="SN-Gratuitous-ARP-Aggressive" code="54" type="int"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Up-Addr" code="55" type="str"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Down-Addr" code="56" type="str"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Preference" code="57" type="int"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Up-VLAN" code="58" type="str"></AVP>
+	<AVP name="SN-Ext-Inline-Srvr-Down-VLAN" code="59" type="int"></AVP>
+	<AVP name="SN-IP-Hide-Service-Address" code="60" type="int"></AVP>
+	<AVP name="SN-PPP-Outbound-Username" code="61" type="str"></AVP>
+	<AVP name="SN-GTP-Version" code="62" type="int"></AVP>
+	<AVP name="SN-Access-link-IP-Frag" code="63" type="int"></AVP>
+	<AVP name="SN-Subscriber-Accounting" code="64" type="int"></AVP>
+	<AVP name="SN-Nw-Reachability-Server-Name" code="65" type="str"></AVP>
+	<AVP name="SN-Subscriber-IP-Hdr-Neg-Mode" code="67" type="int"></AVP>
+	<AVP name="SN-GGSN-MIP-Required" code="68" type="int"></AVP>
+	<AVP name="SN-Subscriber-Acct-Start" code="69" type="int"></AVP>
+	<AVP name="SN-Subscriber-Acct-Interim" code="70" type="int"></AVP>
+	<AVP name="SN-Subscriber-Acct-Stop" code="71" type="int"></AVP>
+	<AVP name="SN-QoS-Tp-Dnlk" code="73" type="int"></AVP>
+	<AVP name="SN-Tp-Dnlk-Committed-Data-Rate" code="74" type="int"></AVP>
+	<AVP name="SN-Tp-Dnlk-Peak-Data-Rate" code="75" type="int"></AVP>
+	<AVP name="SN-Tp-Dnlk-Burst-Size" code="76" type="int"></AVP>
+	<AVP name="SN-Tp-Dnlk-Exceed-Action" code="77" type="int"></AVP>
+	<AVP name="SN-Tp-Dnlk-Violate-Action" code="78" type="int"></AVP>
+	<AVP name="SN-QoS-Tp-Uplk" code="79" type="int"></AVP>
+	<AVP name="SN-Tp-Uplk-Committed-Data-Rate" code="80" type="int"></AVP>
+	<AVP name="SN-Tp-Uplk-Peak-Data-Rate" code="81" type="int"></AVP>
+	<AVP name="SN-Tp-Uplk-Burst-Size" code="82" type="int"></AVP>
+	<AVP name="SN-Tp-Uplk-Exceed-Action" code="83" type="int"></AVP>
+	<AVP name="SN-Tp-Uplk-Violate-Action" code="84" type="int"></AVP>
+	<AVP name="SN-Subscriber-IP-TOS-Copy" code="85" type="int"></AVP>
+	<AVP name="SN-QoS-Conversation-Class" code="86" type="str"></AVP>
+	<AVP name="SN-QoS-Streaming-Class" code="87" type="str"></AVP>
+	<AVP name="SN-QoS-Interactive1-Class" code="88" type="str"></AVP>
+	<AVP name="SN-QoS-Interactive2-Class" code="89" type="str"></AVP>
+	<AVP name="SN-QoS-Interactive3-Class" code="90" type="str"></AVP>
+	<AVP name="SN-QoS-Background-Class" code="91" type="str"></AVP>
+	<AVP name="SN-PPP-NW-Layer-IPv4" code="92" type="int"></AVP>
+	<AVP name="SN-PPP-NW-Layer-IPv6" code="93" type="int"></AVP>
+	<AVP name="SN-Virtual-APN-Name" code="94" type="str"></AVP>
+	<AVP name="SN-PPP-Accept-Peer-v6Ifid" code="95" type="int"></AVP>
+	<AVP name="SN-IPv6-rtr-advt-interval" code="96" type="int"></AVP>
+	<AVP name="SN-IPv6-num-rtr-advt" code="97" type="int"></AVP>
+	<AVP name="SN-NPU-Qos-Priority" code="98" type="int"></AVP>
+	<AVP name="SN-MN-HA-Hash-Algorithm" code="99" type="int"></AVP>
+	<AVP name="SN-Subscriber-Acct-Rsp-Action" code="100" type="int"></AVP>
+	<AVP name="SN-IPv6-Primary-DNS" code="101" type="str"></AVP>
+	<AVP name="SN-IPv6-Secondary-DNS" code="102" type="str"></AVP>
+	<AVP name="SN-IPv6-Egress-Filtering" code="103" type="int"></AVP>
+	<AVP name="SN-Mediation-VPN-Name" code="104" type="str"></AVP>
+	<AVP name="SN-Mediation-Acct-Rsp-Action" code="105" type="int"></AVP>
+	<AVP name="SN-Home-Sub-Use-GGSN" code="106" type="int"></AVP>
+	<AVP name="SN-Visiting-Sub-Use-GGSN" code="107" type="int"></AVP>
+	<AVP name="SN-Roaming-Sub-Use-GGSN" code="108" type="int"></AVP>
+	<AVP name="SN-Home-Profile" code="109" type="int"></AVP>
+	<AVP name="SN-IP-Src-Validation-Drop-Limit" code="110" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Conversational-PHB" code="111" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Streaming-PHB" code="112" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Background-PHB" code="113" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Interactive-1-PHB" code="114" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Interactive-2-PHB" code="115" type="int"></AVP>
+	<AVP name="SN-QoS-Class-Interactive-3-PHB" code="116" type="int"></AVP>
+	<AVP name="SN-Visiting-Profile" code="117" type="int"></AVP>
+	<AVP name="SN-Roaming-Profile" code="118" type="int"></AVP>
+	<AVP name="SN-Home-Behavior" code="119" type="int"></AVP>
+	<AVP name="SN-Visiting-Behavior" code="120" type="int"></AVP>
+	<AVP name="SN-Roaming-Behavior" code="121" type="int"></AVP>
+	<AVP name="SN-Internal-SM-Index" code="122" type="int"></AVP>
+	<AVP name="SN-Mediation-Enabled" code="123" type="int"></AVP>
+	<AVP name="SN-IPv6-Sec-Pool" code="124" type="str"></AVP>
+	<AVP name="SN-IPv6-Sec-Prefix" code="125" type="str"></AVP>
+	<AVP name="SN-IPv6-DNS-Proxy" code="126" type="int"></AVP>
+	<AVP name="SN-Subscriber-Nexthop-Address" code="127" type="str"></AVP>
+	<AVP name="SN-Prepaid" code="128" type="int"></AVP>
+	<AVP name="SN-Prepaid-Preference" code="129" type="int"></AVP>
+	<AVP name="SN-PPP-Always-On-Vse" code="130" type="int"></AVP>
+	<AVP name="SN-Voice-Push-List-Name" code="131" type="str"></AVP>
+	<AVP name="SN-Unclassify-List-Name" code="132" type="str"></AVP>
+	<AVP name="SN-Subscriber-No-Interims" code="133" type="int"></AVP>
+	<AVP name="SN-Permit-User-Mcast-PDUs" code="134" type="int"></AVP>
+	<AVP name="SN-Prepaid-Final-Duration-Alg" code="135" type="int"></AVP>
+	<AVP name="SN-IPv6-Min-Link-MTU" code="136" type="int"></AVP>
+	<AVP name="SN-Charging-VPN-Name" code="137" type="str"></AVP>
+	<AVP name="SN-Chrg-Char-Selection-Mode" code="138" type="int"></AVP>
+	<AVP name="SN-Cause-For-Rec-Closing" code="139" type="int"></AVP>
+	<AVP name="SN-Change-Condition" code="140" type="int"></AVP>
+	<AVP name="SN-Dynamic-Addr-Alloc-Ind-Flag" code="141" type="str"></AVP>
+	<AVP name="SN-Ntk-Initiated-Ctx-Ind-Flag" code="142" type="str"></AVP>
+	<AVP name="SN-Ntk-Session-Disconnect-Flag" code="143" type="int"></AVP>
+	<AVP name="SN-Enable-QoS-Renegotiation" code="144" type="int"></AVP>
+	<AVP name="SN-QoS-Renegotiation-Timeout" code="145" type="int"></AVP>
+	<AVP name="SN-Mediation-No-Interims" code="146" type="int"></AVP>
+	<AVP name="SN-QoS-Negotiated" code="147" type="str"></AVP>
+	<AVP name="SN-Primary-NBNS-Server" code="148" type="str"></AVP>
+	<AVP name="SN-Secondary-NBNS-Server" code="149" type="str"></AVP>
+	<AVP name="SN-IP-Header-Compression" code="150" type="int"></AVP>
+	<AVP name="SN-ROHC-Mode" code="151" type="int"></AVP>
+	<AVP name="SN-Assigned-VLAN-ID" code="152" type="int"></AVP>
+	<AVP name="SN-Direction" code="153" type="int"></AVP>
+	<AVP name="SN-MIP-HA-Assignment-Table" code="154" type="str"></AVP>
+	<AVP name="SN-Tun-Addr-Policy" code="156" type="int"></AVP>
+	<AVP name="SN-DHCP-Lease-Expiry-Policy" code="157" type="int"></AVP>
+	<AVP name="SN-Subscriber-Template-Name" code="158" type="str"></AVP>
+	<AVP name="SN-Subs-IMSA-Service-Name" code="159" type="str"></AVP>
+	<AVP name="SN-Traffic-Group" code="161" type="int"></AVP>
+	<AVP name="SN-Rad-APN-Name" code="162" type="str"></AVP>
+	<AVP name="SN-MIP-Send-Ancid" code="163" type="int"></AVP>
+	<AVP name="SN-MIP-Send-Imsi" code="164" type="int"></AVP>
+	<AVP name="SN-MIP-Dual-Anchor" code="165" type="int"></AVP>
+	<AVP name="SN-MIP-ANCID" code="166" type="str"></AVP>
+	<AVP name="SN-IMS-AM-Address" code="167" type="str"></AVP>
+	<AVP name="SN-IMS-AM-Domain-Name" code="168" type="str"></AVP>
+	<AVP name="SN-Service-Address" code="169" type="str"></AVP>
+	<AVP name="SN-PDIF-MIP-Required" code="170" type="int"></AVP>
+	<AVP name="SN-FMC-Location" code="171" type="str"></AVP>
+	<AVP name="SN-PDIF-MIP-Release-TIA" code="172" type="int"></AVP>
+	<AVP name="SN-PDIF-MIP-Simple-IP-Fallback" code="173" type="int"></AVP>
+	<AVP name="SN-Tunnel-Gn" code="174" type="int"></AVP>
+	<AVP name="SN-MIP-Reg-Lifetime-Realm" code="175" type="int"></AVP>
+	<AVP name="SN-Ecs-Data-Volume" code="176" type="str"></AVP>
+	<AVP name="SN-QoS-Traffic-Policy" code="177" type="str"></AVP>
+	<AVP name="SN-PPP-Reneg-Disc" code="187" type="int"></AVP>
+	<AVP name="SN-MIP-Send-Correlation-Info" code="188" type="int"></AVP>
+	<AVP name="SN-PDSN-NAS-Id" code="190" type="str"></AVP>
+	<AVP name="SN-PDSN-NAS-IP-Address" code="191" type="str"></AVP>
+	<AVP name="SN-Subscriber-Acct-Mode" code="192" type="int"></AVP>
+	<AVP name="SN-IP-In-Plcy-Grp" code="193" type="str"></AVP>
+	<AVP name="SN-IP-Out-Plcy-Grp" code="194" type="str"></AVP>
+	<AVP name="SN-IP-Source-Violate-No-Acct" code="196" type="int"></AVP>
+	<AVP name="SN-Firewall-Enabled" code="198" type="int"></AVP>
+	<AVP name="SN-Admin-Expiry" code="204" type="int"></AVP>
+	<AVP name="SN-DNS-Proxy-Intercept-List" code="214" type="str"></AVP>
+	<AVP name="SN-Subscriber-Class" code="219" type="int"></AVP>
+	<AVP name="SN-CFPolicy-ID" code="220" type="int"></AVP>
+	<AVP name="SN-Subs-VJ-Slotid-Cmp-Neg-Mode" code="221" type="int"></AVP>
+	<AVP name="SN-Primary-DCCA-Peer" code="223" type="str"></AVP>
+	<AVP name="SN-Secondary-DCCA-Peer" code="224" type="str"></AVP>
+	<AVP name="SN-Subs-Acc-Flow-Traffic-Valid" code="225" type="int"></AVP>
+	<AVP name="SN-Acct-Input-Packets-Dropped" code="226" type="int"></AVP>
+	<AVP name="SN-Acct-Output-Packets-Dropped" code="227" type="int"></AVP>
+	<AVP name="SN-Acct-Input-Octets-Dropped" code="228" type="int"></AVP>
+	<AVP name="SN-Acct-Output-Octets-Dropped" code="229" type="int"></AVP>
+	<AVP name="SN-Acct-Input-Giga-Dropped" code="230" type="int"></AVP>
+	<AVP name="SN-Acct-Output-Giga-Dropped" code="231" type="int"></AVP>
+	<AVP name="SN-Inactivity-Time" code="232" type="int"></AVP>
+	<AVP name="SN-Overload-Disc-Connect-Time" code="233" type="int"></AVP>
+	<AVP name="SN-Overload-Disc-Inact-Time" code="234" type="int"></AVP>
+	<AVP name="SN-Overload-Disconnect" code="235" type="int"></AVP>
+	<AVP name="SN-Radius-Returned-Username" code="236" type="int"></AVP>
+	<AVP name="Prohibit-Payload-Compression" code="237" type="int"></AVP>
+	<AVP name="SN-ROHC-Profile-Name" code="238" type="str"></AVP>
+	<AVP name="SN-Firewall-Policy" code="239" type="str"></AVP>
+	<AVP name="SN-LI-Dest-Address" code="240" type="str"></AVP>
+	<AVP name="SN-MS-ISDN" code="248" type="str"></AVP>
+	<AVP name="SN-Routing-Area-Id" code="249" type="str"></AVP>
+	<AVP name="SN-Rulebase" code="250" type="str"></AVP>
+	<AVP name="SN-Call-Id" code="251" type="int"></AVP>
+	<AVP name="SN-IMSI" code="252" type="str"></AVP>
+	<AVP name="SN-Long-Duration-Notification" code="253" type="int"></AVP>
+	<AVP name="SN-SIP-Method" code="254" type="str"></AVP>
+	<AVP name="SN-Event" code="255" type="str"></AVP>
+	<AVP name="SN-Role-Of-Node" code="256" type="int"></AVP>
+	<AVP name="SN-Session-Id" code="257" type="str"></AVP>
+	<AVP name="SN-SIP-Request-Time-Stamp" code="258" type="str"></AVP>
+	<AVP name="SN-SIP-Response-Time-Stamp" code="259" type="str"></AVP>
+	<AVP name="SN-IMS-Charging-Identifier" code="260" type="str"></AVP>
+	<AVP name="SN-Originating-IOI" code="261" type="str"></AVP>
+	<AVP name="SN-SDP-Session-Description" code="263" type="str"></AVP>
+	<AVP name="SN-GGSN-Address" code="264" type="str"></AVP>
+	<AVP name="SN-Sec-IP-Pool-Name" code="265" type="str"></AVP>
+	<AVP name="SN-Authorised-Qos" code="266" type="str"></AVP>
+	<AVP name="SN-Cause-Code" code="267" type="int"></AVP>
+	<AVP name="SN-Node-Functionality" code="268" type="int"></AVP>
+	<AVP name="SN-Is-Unregistered-Subscriber" code="269" type="str"></AVP>
+	<AVP name="SN-Content-Type" code="270" type="str"></AVP>
+	<AVP name="SN-Content-Length" code="271" type="str"></AVP>
+	<AVP name="SN-Content-Disposition" code="272" type="str"></AVP>
+	<AVP name="SN-CSCF-Rf-SDP-Media-Components" code="273" type="str"></AVP>
+	<AVP name="SN-ROHC-Flow-Marking-Mode" code="274" type="int"></AVP>
+	<AVP name="SN-CSCF-App-Server-Info" code="275" type="str"></AVP>
+	<AVP name="SN-ISC-Template-Name" code="276" type="str"></AVP>
+	<AVP name="SN-CF-Forward-Unconditional" code="277" type="str"></AVP>
+	<AVP name="SN-CF-Forward-No-Answer" code="278" type="str"></AVP>
+	<AVP name="SN-CF-Forward-Busy-Line" code="279" type="str"></AVP>
+	<AVP name="SN-CF-Forward-Not-Regd" code="280" type="str"></AVP>
+	<AVP name="SN-CF-Follow-Me" code="281" type="str"></AVP>
+	<AVP name="SN-CF-CId-Display" code="282" type="int"></AVP>
+	<AVP name="SN-CF-CId-Display-Blocked" code="283" type="int"></AVP>
+	<AVP name="SN-CF-Call-Waiting" code="284" type="int"></AVP>
+	<AVP name="SN-CF-Call-Transfer" code="285" type="int"></AVP>
+	<AVP name="SN-Cscf-Subscriber-Ip-Address" code="287" type="str"></AVP>
+	<AVP name="SN-Software-Version" code="288" type="str"></AVP>
+	<AVP name="SN-Max-Sec-Contexts-Per-Subs" code="290" type="int"></AVP>
+	<AVP name="SN-CF-Call-Local" code="291" type="int"></AVP>
+	<AVP name="SN-CF-Call-LongDistance" code="292" type="int"></AVP>
+	<AVP name="SN-CF-Call-International" code="293" type="int"></AVP>
+	<AVP name="SN-CF-Call-Premium" code="294" type="int"></AVP>
+	<AVP name="SN-CR-International-Cid" code="295" type="int"></AVP>
+	<AVP name="SN-CR-LongDistance-Cid" code="296" type="int"></AVP>
+	<AVP name="SN-NAT-IP-Address" code="297" type="str"></AVP>
+	<AVP name="SN-CF-Call-RoamingInternatnl" code="298" type="int"></AVP>
+	<AVP name="SN-PDG-TTG-Required" code="299" type="int"></AVP>
+	<AVP name="SN-Bandwidth-Policy" code="300" type="str"></AVP>
+	<AVP name="SN-Acs-Credit-Control-Group" code="301" type="str"></AVP>
+	<AVP name="SN-CBB-Policy" code="302" type="str"></AVP>
+	<AVP name="SN-QOS-HLR-Profile" code="303" type="str"></AVP>
+	<AVP name="SN-Fast-Reauth-Username" code="304" type="str"></AVP>
+	<AVP name="SN-Pseudonym-Username" code="305" type="str"></AVP>
+	<AVP name="SN-WiMAX-Auth-Only" code="306" type="int"></AVP>
+	<AVP name="SN-TrafficSelector-Class" code="307" type="int"></AVP>
+	<AVP name="SN-TPO-Policy" code="308" type="str"></AVP>
+	<AVP name="SN-DHCP-Options" code="309" type="str"></AVP>
+	<AVP name="SN-Handoff-Indicator" code="310" type="int"></AVP>
+	<AVP name="SN-MIP-Send-Host-Config" code="311" type="int"></AVP>
+	<AVP name="SN-User-Privilege" code="313" type="int"></AVP>
+	<AVP name="SN-IPv6-Alloc-Method" code="314" type="int"></AVP>
+	<AVP name="SN-WLAN-AP-Identifier" code="319" type="str"></AVP>
+	<AVP name="SN-WLAN-UE-Identifier" code="320" type="str"></AVP>
+	<AVP name="SN-Volume-Quota-Threshold" code="501" type="int"></AVP>
+	<AVP name="SN-Unit-Quota-Threshold" code="502" type="int"></AVP>
+	<AVP name="SN-Time-Quota-Threshold" code="503" type="int"></AVP>
+	<AVP name="SN-Total-Used-Service-Unit" code="504" type="grp"></AVP>
+	<AVP name="SN-Absolute-Validity-Time" code="505" type="int"></AVP>
+	<AVP name="SN-Bandwidth-Control" code="512" type="int"></AVP>
+	<AVP name="SN-Transparent-Data" code="513" type="str"></AVP>
+	<AVP name="SN-Traffic-Policy" code="514" type="str"></AVP>
+	<AVP name="SN-Firewall-Policy" code="515" type="str"></AVP>
+	<AVP name="SN-Usage-Monitoring-Control" code="517" type="grp"></AVP>
+	<AVP name="SN-Monitoring-Key" code="518" type="int"></AVP>
+	<AVP name="SN-Usage-Volume" code="519" type="int64"></AVP>
+	<AVP name="SN-Service-Flow-Detection" code="520" type="int"></AVP>
+	<AVP name="SN-Usage-Monitoring" code="521" type="int"></AVP>
+	<AVP name="Session-Start-Indicator" code="522" type="str"></AVP>
+	<AVP name="SN-Phase0-PSAPName" code="523" type="str"></AVP>
+	<AVP name="SN-Charging-Id" code="525" type="str"></AVP>
+	<AVP name="SN-Remaining-Service-Unit" code="526" type="grp"></AVP>
+	<AVP name="SN-Service-Start-Timestamp" code="527" type="int"></AVP>
+	<AVP name="SN-Rulebase-Id" code="528" type="str"></AVP>
+	<AVP name="SN-CF-Policy-ID" code="529" type="int"></AVP>
+	<AVP name="SN-Charging-Collection-Function-Name" code="530" type="str"></AVP>
+	<AVP name="Customer-Id" code="1146" type="str"></AVP>
+	<AVP name="Access-Network-Charging-Physical-Access-Id" code="1472" type="grp"></AVP>
+	<AVP name="Access-Network-Charging-Physical-Access-Id-Value" code="1473" type="str"></AVP>
+	<AVP name="Access-Network-Charging-Physical-Access-Id-Realm" code="1474" type="str"></AVP>
+	<AVP name="SN-Fast-Reauth-Username" code="11010" type="str"></AVP>
+	<AVP name="SN-Pseudonym-Username" code="11011" type="str"></AVP>
+	<AVP name="SN-Proxy-MIPV6" code="65530" type="int"></AVP>
+</Vendor>
+<!--vendor=10415, TGPP-->
+<Vendor vendorcode="10415" vendorname="TGPP">
+	<AVP name="3GPP-IMSI" code="1" type="str"></AVP>
+	<AVP name="3GPP-Charging-Id" code="2" type="str"></AVP>
+	<AVP name="3GPP-PDP-Type" code="3" type="int"></AVP>
+	<AVP name="3GPP-CG-Address" code="4" type="str"></AVP>
+	<AVP name="3GPP-GPRS-Negotiated-QoS-profile" code="5" type="str"></AVP>
+	<AVP name="3GPP-SGSN-Address" code="6" type="str"></AVP>
+	<AVP name="3GPP-GGSN-Address" code="7" type="str"></AVP>
+	<AVP name="3GPP-IMSI-MCC-MNC" code="8" type="str"></AVP>
+	<AVP name="3GPP-GGSN-MCC-MNC" code="9" type="str"></AVP>
+	<AVP name="3GPP-NSAPI" code="10" type="str"></AVP>
+	<AVP name="3GPP-Session-Stop-Indicator" code="11" type="str"></AVP>
+	<AVP name="3GPP-Selection-Mode" code="12" type="str"></AVP>
+	<AVP name="3GPP-Charging-Characteristics" code="13" type="str"></AVP>
+	<AVP name="3GPP-CG-IPv6-Address" code="14" type="str"></AVP>
+	<AVP name="3GPP-SGSN-IPv6-Address" code="15" type="str"></AVP>
+	<AVP name="3GPP-GGSN-IPv6-Address" code="16" type="str"></AVP>
+	<AVP name="3GPP-IPv6-DNS-Server" code="17" type="str"></AVP>
+	<AVP name="3GPP-SGSN-MCC-MNC" code="18" type="str"></AVP>
+	<AVP name="3GPP-Teardown-Indicator" code="19" type="str"></AVP>
+	<AVP name="3GPP-IMEISV" code="20" type="str"></AVP>
+	<AVP name="3GPP-RAT-Type" code="21" type="str"></AVP>
+	<AVP name="3GPP-User-Location-Info" code="22" type="str"></AVP>
+	<AVP name="3GPP-MS-TimeZone" code="23" type="str"></AVP>
+	<AVP name="3GPP-CAMEL-Charging-Info" code="24" type="str"></AVP>
+	<AVP name="3GPP-Packet-Filter" code="25" type="str"></AVP>
+	<AVP name="3GPP-Negotiated-DSCP" code="26" type="str"></AVP>
+	<AVP name="3GPP-Allocate-IP-Type" code="27" type="str"></AVP>
+	<AVP name="3GPP-AAA-Server-Name" code="318" type="str"></AVP>
+	<AVP name="Maximum-Number-Accesses" code="319" type="int"></AVP>
+	<AVP name="GBA-UserSecSettings" code="400" type="str"></AVP>
+	<AVP name="Transaction-Identifier" code="401" type="str"></AVP>
+	<AVP name="NAF-Hostname" code="402" type="str"></AVP>
+	<AVP name="GAA-Service-Identifier" code="403" type="str"></AVP>
+	<AVP name="Key-ExpiryTime" code="404" type="int"></AVP>
+	<AVP name="ME-Key-Material" code="405" type="str"></AVP>
+	<AVP name="UICC-Key-Material" code="406" type="str"></AVP>
+	<AVP name="GBA_U-Awareness-Indicator" code="407" type="int"></AVP>
+	<AVP name="BootstrapInfoCreationTime" code="408" type="int"></AVP>
+	<AVP name="GUSS-Timestamp" code="409" type="int"></AVP>
+	<AVP name="GBA-Type" code="410" type="int"></AVP>
+	<AVP name="UE-Id" code="411" type="str"></AVP>
+	<AVP name="UE-Id-Type" code="412" type="int"></AVP>
+	<AVP name="UICC-App-Label" code="413" type="str"></AVP>
+	<AVP name="UICC-ME" code="414" type="int"></AVP>
+	<AVP name="Requested-Key-Lifetime" code="415" type="int"></AVP>
+	<AVP name="Private-Identity-Request" code="416" type="int"></AVP>
+	<AVP name="GBA-Push-Info" code="417" type="str"></AVP>
+	<AVP name="NAF-SA-Identifier" code="418" type="str"></AVP>
+	<AVP name="Security-Feature-Request" code="419" type="str"></AVP>
+	<AVP name="Security-Feature-Response" code="420" type="str"></AVP>
+	<AVP name="Abort-Cause" code="500" type="int"></AVP>
+	<AVP name="Access-Network-Charging-Address" code="501" type="str"></AVP>
+	<AVP name="Access-Network-Charging-Identifier" code="502" type="grp"></AVP>
+	<AVP name="Access-Network-Charging-Identifier-Value" code="503" type="str"></AVP>
+	<AVP name="AF-Application-Identifier" code="504" type="str"></AVP>
+	<AVP name="AF-Charging-Identifier" code="505" type="str"></AVP>
+	<AVP name="Authorization-Token" code="506" type="str"></AVP>
+	<AVP name="Flow-Description" code="507" type="str"></AVP>
+	<AVP name="Flow-Grouping" code="508" type="grp"></AVP>
+	<AVP name="Flow-Number" code="509" type="int"></AVP>
+	<AVP name="Flows" code="510" type="grp"></AVP>
+	<AVP name="Flow-Status" code="511" type="int"></AVP>
+	<AVP name="Flow-Usage" code="512" type="int"></AVP>
+	<AVP name="Specific-Action" code="513" type="int"></AVP>
+	<AVP name="Max-Requested-Bandwidth-DL" code="515" type="int"></AVP>
+	<AVP name="Max-Requested-Bandwidth-UL" code="516" type="int"></AVP>
+	<AVP name="Media-Component-Description" code="517" type="grp"></AVP>
+	<AVP name="Media-Component-Number" code="518" type="int"></AVP>
+	<AVP name="Media-Sub-Component" code="519" type="grp"></AVP>
+	<AVP name="Media-Type" code="520" type="int"></AVP>
+	<AVP name="RR-Bandwidth" code="521" type="int"></AVP>
+	<AVP name="RS-Bandwidth" code="522" type="int"></AVP>
+	<AVP name="SIP-Forking-Indication" code="523" type="int"></AVP>
+	<AVP name="Codec-Data AVP" code="524" type="str"></AVP>
+	<AVP name="Service-URN" code="525" type="str"></AVP>
+	<AVP name="Acceptable-Service-Info" code="526" type="grp"></AVP>
+	<AVP name="Service-Info-Status" code="527" type="int"></AVP>
+	<AVP name="MPS-Identifier" code="528" type="str"></AVP>
+	<AVP name="Sponsor-Identity" code="531" type="str"></AVP>
+	<AVP name="Application-Service-Provider-Identity" code="532" type="str"></AVP>
+	<AVP name="Rx-Request-Type" code="533" type="int"></AVP>
+	<AVP name="Min-Requested-Bandwidth-DL" code="534" type="int"></AVP>
+	<AVP name="Min-Requested-Bandwidth-UL" code="535" type="int"></AVP>
+	<AVP name="Required-Access-Info" code="536" type="int"></AVP>
+	<AVP name="IP-Domain-Id" code="537" type="str"></AVP>
+	<AVP name="Visited-Network-Identifier" code="600" type="str"></AVP>
+	<AVP name="Public-Identity" code="601" type="str"></AVP>
+	<AVP name="Server-Name" code="602" type="str"></AVP>
+	<AVP name="Server-Capabilities" code="603" type="grp"></AVP>
+	<AVP name="Mandatory-Capability" code="604" type="int"></AVP>
+	<AVP name="Optional-Capability" code="605" type="int"></AVP>
+	<AVP name="User-Data" code="606" type="str"></AVP>
+	<AVP name="SIP-Number-Auth-Items" code="607" type="int"></AVP>
+	<AVP name="SIP-Authentication-Scheme" code="608" type="str"></AVP>
+	<AVP name="SIP-Authenticate" code="609" type="str"></AVP>
+	<AVP name="SIP-Authorization" code="610" type="str"></AVP>
+	<AVP name="SIP-Authentication-Context" code="611" type="str"></AVP>
+	<AVP name="SIP-Auth-Data-Item" code="612" type="grp"></AVP>
+	<AVP name="SIP-Item-Number" code="613" type="int"></AVP>
+	<AVP name="Server-Assignment-Type" code="614" type="int"></AVP>
+	<AVP name="Deregistration-Reason" code="615" type="grp"></AVP>
+	<AVP name="Reason-Code" code="616" type="int"></AVP>
+	<AVP name="Reason-Info" code="617" type="str"></AVP>
+	<AVP name="Charging-Information" code="618" type="grp"></AVP>
+	<AVP name="Primary-Event-Charging-Function-Name" code="619" type="str"></AVP>
+	<AVP name="Secondary-Event-Charging-Function-Name" code="620" type="str"></AVP>
+	<AVP name="Primary-Charging-Collection-Function-Name" code="621" type="str"></AVP>
+	<AVP name="Secondary-Charging-Collection-Function-Name" code="622" type="str"></AVP>
+	<AVP name="User-Authorization-Type" code="623" type="int"></AVP>
+	<AVP name="User-Data-Already-Available" code="624" type="int"></AVP>
+	<AVP name="Confidentiality-Key" code="625" type="str"></AVP>
+	<AVP name="Integrity-Key" code="626" type="str"></AVP>
+	<AVP name="User-Data-Request-Type(Obsolete)" code="627" type="int"></AVP>
+	<AVP name="Supported-Features" code="628" type="grp"></AVP>
+	<AVP name="Feature-List-ID" code="629" type="int"></AVP>
+	<AVP name="Feature-List" code="630" type="int"></AVP>
+	<AVP name="Supported-Applications" code="631" type="grp"></AVP>
+	<AVP name="Associated-Identities" code="632" type="grp"></AVP>
+	<AVP name="Originating-Request" code="633" type="int"></AVP>
+	<AVP name="Wildcarded-PSI" code="634" type="str"></AVP>
+	<AVP name="SIP-Digest-Authenticate AVP" code="635" type="grp"></AVP>
+	<AVP name="Wildcarded-IMPU" code="636" type="str"></AVP>
+	<AVP name="UAR-Flags" code="637" type="int"></AVP>
+	<AVP name="Loose-Route-Indication" code="638" type="int"></AVP>
+	<AVP name="SCSCF-Restoration-Info" code="639" type="grp"></AVP>
+	<AVP name="Path" code="640" type="str"></AVP>
+	<AVP name="Contact" code="641" type="str"></AVP>
+	<AVP name="Subscription-Info" code="642" type="grp"></AVP>
+	<AVP name="Call-ID-SIP-Header" code="643" type="str"></AVP>
+	<AVP name="From-SIP-Header" code="644" type="str"></AVP>
+	<AVP name="To-SIP-Header" code="645" type="str"></AVP>
+	<AVP name="Record-Route" code="646" type="str"></AVP>
+	<AVP name="Associated-Registered-Identities" code="647" type="grp"></AVP>
+	<AVP name="Multiple-Registration-Indication" code="648" type="int"></AVP>
+	<AVP name="Restoration-Info" code="649" type="grp"></AVP>
+	<AVP name="Session-Priority" code="650" type="int"></AVP>
+	<AVP name="Identity-with-Emergency-Registration" code="651" type="grp"></AVP>
+	<AVP name="User-Identity" code="700" type="grp"></AVP>
+	<AVP name="MSISDN" code="701" type="str"></AVP>
+	<AVP name="User-Data" code="702" type="str"></AVP>
+	<AVP name="Data-Reference" code="703" type="int"></AVP>
+	<AVP name="Service-Indication" code="704" type="str"></AVP>
+	<AVP name="Subs-Req-Type" code="705" type="int"></AVP>
+	<AVP name="Requested-Domain" code="706" type="int"></AVP>
+	<AVP name="Current-Location" code="707" type="int"></AVP>
+	<AVP name="Identity-Set" code="708" type="int"></AVP>
+	<AVP name="Expiry-Time" code="709" type="int"></AVP>
+	<AVP name="Send-Data-Indication" code="710" type="int"></AVP>
+	<AVP name="DSAI-Tag" code="711" type="str"></AVP>
+	<AVP name="One-Time-Notification" code="712" type="int"></AVP>
+	<AVP name="Requested-Nodes" code="713" type="int"></AVP>
+	<AVP name="Serving-Node-Indication" code="714" type="int"></AVP>
+	<AVP name="Repository-Data-ID" code="715" type="grp"></AVP>
+	<AVP name="Sequence-Number" code="716" type="int"></AVP>
+	<AVP name="Pre-paging-Supported" code="717" type="int"></AVP>
+	<AVP name="Local-Time-Zone-Indication" code="718" type="int"></AVP>
+	<AVP name="UDR-Flags" code="719" type="int"></AVP>
+	<AVP name="Event-Type" code="823" type="grp"></AVP>
+	<AVP name="SIP-Method" code="824" type="str"></AVP>
+	<AVP name="Event" code="825" type="str"></AVP>
+	<AVP name="Content-Type" code="826" type="str"></AVP>
+	<AVP name="Content-Length" code="827" type="int"></AVP>
+	<AVP name="Content-Disposition" code="828" type="str"></AVP>
+	<AVP name="Role-Of-Node" code="829" type="int"></AVP>
+	<AVP name="User-Session-Id" code="830" type="str"></AVP>
+	<AVP name="Calling-Party-Address" code="831" type="str"></AVP>
+	<AVP name="Called-Party-Address" code="832" type="str"></AVP>
+	<AVP name="Time-Stamps" code="833" type="grp"></AVP>
+	<AVP name="SIP-Request-Timestamp" code="834" type="int"></AVP>
+	<AVP name="SIP-Response-Timestamp" code="835" type="int"></AVP>
+	<AVP name="Application-Server" code="836" type="str"></AVP>
+	<AVP name="Application-provided-Called-Party-Address" code="837" type="str"></AVP>
+	<AVP name="Inter-Operator-Identifier" code="838" type="grp"></AVP>
+	<AVP name="Originating-IOI" code="839" type="str"></AVP>
+	<AVP name="Terminating-IOI" code="840" type="str"></AVP>
+	<AVP name="IMS-Charging-Identifier" code="841" type="str"></AVP>
+	<AVP name="SDP-Session-Description" code="842" type="str"></AVP>
+	<AVP name="SDP-Media-components" code="843" type="grp"></AVP>
+	<AVP name="SDP-Media-Name" code="844" type="str"></AVP>
+	<AVP name="SDP-Media-Description" code="845" type="str"></AVP>
+	<AVP name="CG-Address" code="846" type="str"></AVP>
+	<AVP name="GGSN-Address" code="847" type="str"></AVP>
+	<AVP name="Served-Party-IP-Address" code="848" type="str"></AVP>
+	<AVP name="Authorised-QoS" code="849" type="str"></AVP>
+	<AVP name="Application-Server-Information" code="850" type="grp"></AVP>
+	<AVP name="Trunk-Group-ID" code="851" type="grp"></AVP>
+	<AVP name="Incoming-Trunk-Group-ID" code="852" type="str"></AVP>
+	<AVP name="Outgoing-Trunk-Group-ID" code="853" type="str"></AVP>
+	<AVP name="Bearer-Service" code="854" type="str"></AVP>
+	<AVP name="Service-ID" code="855" type="str"></AVP>
+	<AVP name="PoC-Controlling-Address" code="858" type="str"></AVP>
+	<AVP name="PoC-Group-Name" code="859" type="str"></AVP>
+	<AVP name="Cause" code="860" type="grp"></AVP>
+	<AVP name="Cause-Code" code="861" type="int"></AVP>
+	<AVP name="Node-Functionality" code="862" type="int"></AVP>
+	<AVP name="Service-Specific-Data" code="863" type="str"></AVP>
+	<AVP name="Originator" code="864" type="int"></AVP>
+	<AVP name="PS-Furnish-Charging-Information" code="865" type="grp"></AVP>
+	<AVP name="PS-Free-Format-Data" code="866" type="str"></AVP>
+	<AVP name="PS-Append-Free-Format-Data" code="867" type="int"></AVP>
+	<AVP name="Time-Quota-Threshold" code="868" type="int"></AVP>
+	<AVP name="Volume-Quota-Threshold" code="869" type="int"></AVP>
+	<AVP name="Trigger-Type" code="870" type="int"></AVP>
+	<AVP name="Quota-Holding-Time" code="871" type="int"></AVP>
+	<AVP name="Reporting-Reason" code="872" type="int"></AVP>
+	<AVP name="Service-Information" code="873" type="grp"></AVP>
+	<AVP name="PS-Information" code="874" type="grp"></AVP>
+	<AVP name="WLAN-Information" code="875" type="grp"></AVP>
+	<AVP name="IMS-Information" code="876" type="grp"></AVP>
+	<AVP name="MMS-Information" code="877" type="grp"></AVP>
+	<AVP name="LCS-Information" code="878" type="grp"></AVP>
+	<AVP name="PoC-Information" code="879" type="grp"></AVP>
+	<AVP name="MBMS-Information" code="880" type="grp"></AVP>
+	<AVP name="Quota-Consumption-Time" code="881" type="int"></AVP>
+	<AVP name="Media-Initiator-Flag" code="882" type="int"></AVP>
+	<AVP name="PoC-Server-Role" code="883" type="int"></AVP>
+	<AVP name="PoC-Session-Type" code="884" type="int"></AVP>
+	<AVP name="Number-Of-Participants" code="885" type="int"></AVP>
+	<AVP name="Originator-Address" code="886" type="grp"></AVP>
+	<AVP name="Participants-Involved" code="887" type="str"></AVP>
+	<AVP name="Expires" code="888" type="int"></AVP>
+	<AVP name="Message-Body" code="889" type="grp"></AVP>
+	<AVP name="WAG-Address" code="890" type="str"></AVP>
+	<AVP name="WAG-PLMN-Id" code="891" type="str"></AVP>
+	<AVP name="WLAN-Radio-Container" code="892" type="grp"></AVP>
+	<AVP name="WLAN-Technology" code="893" type="int"></AVP>
+	<AVP name="WLAN-UE-Local-IPAddress" code="894" type="str"></AVP>
+	<AVP name="PDG-Address" code="895" type="str"></AVP>
+	<AVP name="PDG-Charging-Id" code="896" type="int"></AVP>
+	<AVP name="Address-Data" code="897" type="str"></AVP>
+	<AVP name="Address-Domain" code="898" type="grp"></AVP>
+	<AVP name="Address-Type" code="899" type="int"></AVP>
+	<AVP name="TMGI" code="900" type="str"></AVP>
+	<AVP name="Required-MBMS-Bearer-Capabilities" code="901" type="str"></AVP>
+	<AVP name="MBMS-StartStop-Indication" code="902" type="int"></AVP>
+	<AVP name="MBMS-Service-Area" code="903" type="str"></AVP>
+	<AVP name="MBMS-Session-Duration" code="904" type="str"></AVP>
+	<AVP name="Alternative-APN" code="905" type="str"></AVP>
+	<AVP name="MBMS-Service-Type" code="906" type="int"></AVP>
+	<AVP name="MBMS-2G-3G-Indicator" code="907" type="int"></AVP>
+	<AVP name="MBMS-Session-Identity" code="908" type="str"></AVP>
+	<AVP name="RAI" code="909" type="str"></AVP>
+	<AVP name="Additional-MBMS-Trace-Info" code="910" type="str"></AVP>
+	<AVP name="MBMS-Time-To-Data-Transfer" code="911" type="str"></AVP>
+	<AVP name="MBMS-Session-Repetition-Number" code="912" type="str"></AVP>
+	<AVP name="MBMS-Required-QoS" code="913" type="str"></AVP>
+	<AVP name="MBMS-Counting-Information" code="914" type="int"></AVP>
+	<AVP name="MBMS-User-Data-Mode-Indication" code="915" type="int"></AVP>
+	<AVP name="MBMS-GGSN-Address" code="916" type="str"></AVP>
+	<AVP name="MBMS-GGSN-IPv6-Address" code="917" type="str"></AVP>
+	<AVP name="MBMS-BMSC-SSM-IP-Address" code="918" type="str"></AVP>
+	<AVP name="MBMS-BMSC-SSM-IPv6-Address" code="919" type="str"></AVP>
+	<AVP name="MBMS-Flow-Identifier" code="920" type="str"></AVP>
+	<AVP name="CN-IP-Multicast-Distribution" code="921" type="int"></AVP>
+	<AVP name="MBMS-HC-Indicator" code="922" type="int"></AVP>
+	<AVP name="MBMS-Access-Indicator" code="923" type="int"></AVP>
+	<AVP name="MBMS-GW-SSM-IP-Address" code="924" type="str"></AVP>
+	<AVP name="MBMS-GW-SSM-IPv6-Address" code="925" type="str"></AVP>
+	<AVP name="MBMS-BMSC-SSM-UDP-Port" code="926" type="str"></AVP>
+	<AVP name="MBMS-GW-UDP-Port" code="927" type="str"></AVP>
+	<AVP name="MBMS-GW-UDP-Port-Indicator" code="928" type="int"></AVP>
+	<AVP name="MBMS-Data-Transfer-Start" code="929" type="int64"></AVP>
+	<AVP name="MBMS-Data-Transfer-Stop" code="930" type="int64"></AVP>
+	<AVP name="Bearer-Usage" code="1000" type="int"></AVP>
+	<AVP name="Charging-Rule-Install" code="1001" type="grp"></AVP>
+	<AVP name="Charging-Rule-Remove" code="1002" type="grp"></AVP>
+	<AVP name="Charging-Rule-Definition" code="1003" type="grp"></AVP>
+	<AVP name="Charging-Rule-Base-Name" code="1004" type="str"></AVP>
+	<AVP name="Charging-Rule-Name" code="1005" type="str"></AVP>
+	<AVP name="Event-Trigger" code="1006" type="int"></AVP>
+	<AVP name="Metering-Method" code="1007" type="int"></AVP>
+	<AVP name="Offline" code="1008" type="int"></AVP>
+	<AVP name="Online" code="1009" type="int"></AVP>
+	<AVP name="Precedence" code="1010" type="int"></AVP>
+	<AVP name="Reporting-Level" code="1011" type="int"></AVP>
+	<AVP name="TFT-Filter" code="1012" type="str"></AVP>
+	<AVP name="TFT-Packet-Filter-Information" code="1013" type="grp"></AVP>
+	<AVP name="ToS-Traffic-Class" code="1014" type="str"></AVP>
+	<AVP name="PDP-Session-operation" code="1015" type="int"></AVP>
+	<AVP name="QoS-Information" code="1016" type="grp"></AVP>
+	<AVP name="Charging-Rule-Report" code="1018" type="grp"></AVP>
+	<AVP name="PCC-Rule-Status" code="1019" type="int"></AVP>
+	<AVP name="Bearer-Identifier" code="1020" type="str"></AVP>
+	<AVP name="Bearer-Operation" code="1021" type="int"></AVP>
+	<AVP name="Access-Network-Charging-Identifier-Gx" code="1022" type="grp"></AVP>
+	<AVP name="Bearer-Control-Mode" code="1023" type="int"></AVP>
+	<AVP name="Network-Request-Support" code="1024" type="int"></AVP>
+	<AVP name="Guaranteed-Bitrate-DL" code="1025" type="int"></AVP>
+	<AVP name="Guaranteed-Bitrate-UL" code="1026" type="int"></AVP>
+	<AVP name="IP-CAN-Type" code="1027" type="int"></AVP>
+	<AVP name="QoS-Class-Identifier" code="1028" type="int"></AVP>
+	<AVP name="QoS-Negotiation" code="1029" type="int"></AVP>
+	<AVP name="QoS-Upgrade" code="1030" type="int"></AVP>
+	<AVP name="Rule-Failure-Code" code="1031" type="int"></AVP>
+	<AVP name="RAT-Type" code="1032" type="int"></AVP>
+	<AVP name="Event-Report-Indication" code="1033" type="grp"></AVP>
+	<AVP name="Allocation-Retention-Priority" code="1034" type="grp"></AVP>
+	<AVP name="CoA-IP-Address" code="1035" type="str"></AVP>
+	<AVP name="Tunnel-Header-Filter" code="1036" type="str"></AVP>
+	<AVP name="Tunnel-Header-Length" code="1037" type="int"></AVP>
+	<AVP name="Tunnel-Information" code="1038" type="grp"></AVP>
+	<AVP name="CoA-Information" code="1039" type="grp"></AVP>
+	<AVP name="APN-Aggregate-Max-Bitrate-DL" code="1040" type="int"></AVP>
+	<AVP name="APN-Aggregate-Max-Bitrate-UL" code="1041" type="int"></AVP>
+	<AVP name="Revalidation-Time" code="1042" type="int"></AVP>
+	<AVP name="Rule-Activation-Time" code="1043" type="int"></AVP>
+	<AVP name="Rule-DeActivation-Time" code="1044" type="int"></AVP>
+	<AVP name="Session-Release-Cause" code="1045" type="int"></AVP>
+	<AVP name="Priority-Level" code="1046" type="int"></AVP>
+	<AVP name="Pre-emption-Capability" code="1047" type="int"></AVP>
+	<AVP name="Pre-emption-Vulnerability" code="1048" type="int"></AVP>
+	<AVP name="Default-EPS-Bearer-QoS" code="1049" type="grp"></AVP>
+	<AVP name="AN-GW-Address" code="1050" type="str"></AVP>
+	<AVP name="QoS-Rule-Install" code="1051" type="grp"></AVP>
+	<AVP name="QoS-Rule-Remove" code="1052" type="grp"></AVP>
+	<AVP name="QoS-Rule-Definition" code="1053" type="grp"></AVP>
+	<AVP name="QoS-Rule-Name" code="1054" type="str"></AVP>
+	<AVP name="QoS-Rule-Report" code="1055" type="grp"></AVP>
+	<AVP name="Security-Parameter-Index" code="1056" type="str"></AVP>
+	<AVP name="Flow-Label" code="1057" type="str"></AVP>
+	<AVP name="Flow-Information" code="1058" type="grp"></AVP>
+	<AVP name="Packet-Filter-Content" code="1059" type="str"></AVP>
+	<AVP name="Packet-Filter-Identifier" code="1060" type="str"></AVP>
+	<AVP name="Packet-Filter-Information" code="1061" type="grp"></AVP>
+	<AVP name="Packet-Filter-Operation" code="1062" type="int"></AVP>
+	<AVP name="Resource-Allocation-Notification" code="1063" type="int"></AVP>
+	<AVP name="Session-Linking-Indicator" code="1064" type="int"></AVP>
+	<AVP name="PDN-Connection-ID" code="1065" type="str"></AVP>
+	<AVP name="Monitoring-Key" code="1066" type="str"></AVP>
+	<AVP name="Usage-Monitoring-Information" code="1067" type="grp"></AVP>
+	<AVP name="Usage-Monitoring-Level" code="1068" type="int"></AVP>
+	<AVP name="Usage-Monitoring-Report" code="1069" type="int"></AVP>
+	<AVP name="Usage-Monitoring-Support" code="1070" type="int"></AVP>
+	<AVP name="CSG-Information-Reporting" code="1071" type="int"></AVP>
+	<AVP name="Packet-Filter-Usage" code="1072" type="int"></AVP>
+	<AVP name="Charging-Correlation-Indicator" code="1073" type="int"></AVP>
+	<AVP name="QoS-Rule-Base-Name" code="1074" type="str"></AVP>
+	<AVP name="Routing-Rule-Remove" code="1075" type="grp"></AVP>
+	<AVP name="Routing-Rule-Definition" code="1076" type="grp"></AVP>
+	<AVP name="Routing-Rule-Identifier" code="1077" type="str"></AVP>
+	<AVP name="Routing-Filter" code="1078" type="grp"></AVP>
+	<AVP name="Routing-IP-Address" code="1079" type="str"></AVP>
+	<AVP name="Flow-Direction" code="1080" type="int"></AVP>
+	<AVP name="Routing-Rule-Install" code="1081" type="grp"></AVP>
+	<AVP name="Maximum-Bandwidth" code="1082" type="grp"></AVP>
+	<AVP name="Max-Supported-Bandwidth-DL" code="1083" type="int"></AVP>
+	<AVP name="Max-Supported-Bandwidth-UL" code="1084" type="int"></AVP>
+	<AVP name="Served-User-Identity" code="1100" type="grp"></AVP>
+	<AVP name="VASP-ID" code="1101" type="str"></AVP>
+	<AVP name="VAS-ID" code="1102" type="str"></AVP>
+	<AVP name="Trigger-Event" code="1103" type="int"></AVP>
+	<AVP name="Sender-Address" code="1104" type="str"></AVP>
+	<AVP name="Initial-Recipient-Address" code="1105" type="grp"></AVP>
+	<AVP name="Result-Recipient-Address" code="1106" type="grp"></AVP>
+	<AVP name="Sequence-Number" code="1107" type="int"></AVP>
+	<AVP name="Recipient-Address" code="1108" type="str"></AVP>
+	<AVP name="Routeing-Address" code="1109" type="str"></AVP>
+	<AVP name="Originating-Interface" code="1110" type="int"></AVP>
+	<AVP name="Delivery-Report" code="1111" type="int"></AVP>
+	<AVP name="Read-Reply" code="1112" type="int"></AVP>
+	<AVP name="Sender-Visibility" code="1113" type="int"></AVP>
+	<AVP name="Service-Key" code="1114" type="str"></AVP>
+	<AVP name="Billing-Information" code="1115" type="str"></AVP>
+	<AVP name="Status" code="1116" type="grp"></AVP>
+	<AVP name="Status-Code" code="1117" type="str"></AVP>
+	<AVP name="Status-Text" code="1118" type="str"></AVP>
+	<AVP name="Routeing-Address-Resolution" code="1119" type="int"></AVP>
+	<AVP name="Domain-Name" code="1200" type="str"></AVP>
+	<AVP name="Recipient-Address" code="1201" type="grp"></AVP>
+	<AVP name="Submission-Time" code="1202" type="int"></AVP>
+	<AVP name="MM-Content-Type" code="1203" type="grp"></AVP>
+	<AVP name="Type-Number" code="1204" type="int"></AVP>
+	<AVP name="Additional-Type-Information" code="1205" type="str"></AVP>
+	<AVP name="Content-Size" code="1206" type="int"></AVP>
+	<AVP name="Additional-Content-Information" code="1207" type="grp"></AVP>
+	<AVP name="Addressee-Type" code="1208" type="int"></AVP>
+	<AVP name="Priority" code="1209" type="int"></AVP>
+	<AVP name="Message-ID" code="1210" type="str"></AVP>
+	<AVP name="Message-Type" code="1211" type="int"></AVP>
+	<AVP name="Message-Size" code="1212" type="int"></AVP>
+	<AVP name="Message-Class" code="1213" type="grp"></AVP>
+	<AVP name="Class-Identifier" code="1214" type="int"></AVP>
+	<AVP name="Token-Text" code="1215" type="str"></AVP>
+	<AVP name="Delivery-Report-Requested" code="1216" type="int"></AVP>
+	<AVP name="Adaptations" code="1217" type="int"></AVP>
+	<AVP name="Applic-ID" code="1218" type="str"></AVP>
+	<AVP name="Aux-Applic-Info" code="1219" type="str"></AVP>
+	<AVP name="Content-Class" code="1220" type="int"></AVP>
+	<AVP name="DRM-Content" code="1221" type="int"></AVP>
+	<AVP name="Read-Reply-Report-Requested" code="1222" type="int"></AVP>
+	<AVP name="Reply-Applic-ID" code="1223" type="str"></AVP>
+	<AVP name="File-Repair-Supported" code="1224" type="int"></AVP>
+	<AVP name="MBMS-User-Service-Type" code="1225" type="int"></AVP>
+	<AVP name="Unit-Quota-Threshold" code="1226" type="int"></AVP>
+	<AVP name="PDP-Address" code="1227" type="str"></AVP>
+	<AVP name="SGSN-Address" code="1228" type="str"></AVP>
+	<AVP name="PoC-Session-Id" code="1229" type="str"></AVP>
+	<AVP name="Deferred-Location-Event-Type" code="1230" type="str"></AVP>
+	<AVP name="LCS-APN" code="1231" type="str"></AVP>
+	<AVP name="LCS-Client-ID" code="1232" type="grp"></AVP>
+	<AVP name="LCS-Client-Dialed-By-MS" code="1233" type="str"></AVP>
+	<AVP name="LCS-Client-External-ID" code="1234" type="str"></AVP>
+	<AVP name="LCS-Client-Name" code="1235" type="grp"></AVP>
+	<AVP name="LCS-Data-Coding-Scheme" code="1236" type="str"></AVP>
+	<AVP name="LCS-Format-Indicator" code="1237" type="int"></AVP>
+	<AVP name="LCS-Name-String" code="1238" type="str"></AVP>
+	<AVP name="LCS-Requestor-ID" code="1239" type="grp"></AVP>
+	<AVP name="LCS-Requestor-ID-String" code="1240" type="str"></AVP>
+	<AVP name="LCS-Client-Type" code="1241" type="int"></AVP>
+	<AVP name="Location-Estimate" code="1242" type="str"></AVP>
+	<AVP name="Location-Estimate-Type" code="1243" type="int"></AVP>
+	<AVP name="Location-Type" code="1244" type="grp"></AVP>
+	<AVP name="Positioning-Data" code="1245" type="str"></AVP>
+	<AVP name="WLAN-Session-Id" code="1246" type="str"></AVP>
+	<AVP name="PDP-Context-Type" code="1247" type="int"></AVP>
+	<AVP name="MMBox-Storage-Requested" code="1248" type="int"></AVP>
+	<AVP name="Service-Specific-Info" code="1249" type="grp"></AVP>
+	<AVP name="Called-Asserted-Identity" code="1250" type="str"></AVP>
+	<AVP name="Requested-Party-Address" code="1251" type="str"></AVP>
+	<AVP name="PoC-User-Role" code="1252" type="grp"></AVP>
+	<AVP name="PoC-User-Role-IDs" code="1253" type="str"></AVP>
+	<AVP name="PoC-User-Role-info-Units" code="1254" type="int"></AVP>
+	<AVP name="Talk-Burst-Exchange" code="1255" type="grp"></AVP>
+	<AVP name="Service-Generic-Information" code="1256" type="grp"></AVP>
+	<AVP name="Service-Specific-Type" code="1257" type="int"></AVP>
+	<AVP name="Event-Charging-TimeStamp" code="1258" type="int"></AVP>
+	<AVP name="Participant-Access-Priority" code="1259" type="int"></AVP>
+	<AVP name="Participant-Group" code="1260" type="grp"></AVP>
+	<AVP name="PoC-Change-Condition" code="1261" type="int"></AVP>
+	<AVP name="PoC-Change-Time" code="1262" type="int"></AVP>
+	<AVP name="Access-Network-Information" code="1263" type="str"></AVP>
+	<AVP name="Trigger" code="1264" type="grp"></AVP>
+	<AVP name="Base-Time-Interval" code="1265" type="int"></AVP>
+	<AVP name="Envelope" code="1266" type="grp"></AVP>
+	<AVP name="Envelope-End-Time" code="1267" type="int"></AVP>
+	<AVP name="Envelope-Reporting" code="1268" type="int"></AVP>
+	<AVP name="Envelope-Start-Time" code="1269" type="int"></AVP>
+	<AVP name="Time-Quota-Mechanism" code="1270" type="grp"></AVP>
+	<AVP name="Time-Quota-Type" code="1271" type="int"></AVP>
+	<AVP name="Early-Media-Description" code="1272" type="grp"></AVP>
+	<AVP name="SDP-TimeStamps" code="1273" type="grp"></AVP>
+	<AVP name="SDP-Offer-Timestamp" code="1274" type="int"></AVP>
+	<AVP name="SDP-Answer-Timestamp" code="1275" type="int"></AVP>
+	<AVP name="AF-Correlation-Information" code="1276" type="grp"></AVP>
+	<AVP name="PoC-Session-Initiation-type" code="1277" type="int"></AVP>
+	<AVP name="Offline-Charging" code="1278" type="grp"></AVP>
+	<AVP name="User-Participating-Type" code="1279" type="int"></AVP>
+	<AVP name="Alternate-Charged-Party-Address" code="1280" type="str"></AVP>
+	<AVP name="IMS-Communication-Service-Identifier" code="1281" type="str"></AVP>
+	<AVP name="Number-Of-Received-Talk-Bursts" code="1282" type="int"></AVP>
+	<AVP name="Number-Of-Talk-Bursts" code="1283" type="int"></AVP>
+	<AVP name="Received-Talk-Burst-Time" code="1284" type="int"></AVP>
+	<AVP name="Received-Talk-Burst-Volume" code="1285" type="int"></AVP>
+	<AVP name="Talk-Burst-Time" code="1286" type="int"></AVP>
+	<AVP name="Talk-Burst-Volume" code="1287" type="int"></AVP>
+	<AVP name="Media-Initiator-Party" code="1288" type="str"></AVP>
+	<AVP name="Subscription-Data" code="1400" type="grp"></AVP>
+	<AVP name="Terminal-Information" code="1401" type="grp"></AVP>
+	<AVP name="IMEI" code="1402" type="str"></AVP>
+	<AVP name="Software-Version" code="1403" type="str"></AVP>
+	<AVP name="QoS-Subscribed" code="1404" type="str"></AVP>
+	<AVP name="ULR-Flags" code="1405" type="int"></AVP>
+	<AVP name="ULA-Flags" code="1406" type="int"></AVP>
+	<AVP name="Visited-PLMN-Id" code="1407" type="str"></AVP>
+	<AVP name="Requested-EUTRAN-Authentication-Info" code="1408" type="grp"></AVP>
+	<AVP name="Requested-UTRAN-GERAN-Authentication-Info" code="1409" type="grp"></AVP>
+	<AVP name="Number-Of-Requested-Vectors" code="1410" type="int"></AVP>
+	<AVP name="Re-Synchronization-Info" code="1411" type="str"></AVP>
+	<AVP name="Immediate-Response-Preferred" code="1412" type="int"></AVP>
+	<AVP name="Authentication-Info" code="1413" type="grp"></AVP>
+	<AVP name="E-UTRAN-Vector" code="1414" type="grp"></AVP>
+	<AVP name="UTRAN-Vector" code="1415" type="grp"></AVP>
+	<AVP name="GERAN-Vector" code="1416" type="grp"></AVP>
+	<AVP name="Network-Access-Mode" code="1417" type="int"></AVP>
+	<AVP name="HPLMN-ODB" code="1418" type="int"></AVP>
+	<AVP name="Item-Number" code="1419" type="int"></AVP>
+	<AVP name="Cancellation-Type" code="1420" type="int"></AVP>
+	<AVP name="DSR-Flags" code="1421" type="int"></AVP>
+	<AVP name="DSA-Flags" code="1422" type="int"></AVP>
+	<AVP name="Context-Identifier" code="1423" type="int"></AVP>
+	<AVP name="Subscriber-Status" code="1424" type="int"></AVP>
+	<AVP name="Operator-Determined-Barring" code="1425" type="int"></AVP>
+	<AVP name="Access-Restriction-Data" code="1426" type="int"></AVP>
+	<AVP name="APN-OI-Replacement" code="1427" type="str"></AVP>
+	<AVP name="All-APN-Configurations-Included-Indicator" code="1428" type="int"></AVP>
+	<AVP name="APN-Configuration-Profile" code="1429" type="grp"></AVP>
+	<AVP name="APN-Configuration" code="1430" type="grp"></AVP>
+	<AVP name="EPS-Subscribed-QoS-Profile" code="1431" type="grp"></AVP>
+	<AVP name="VPLMN-Dynamic-Address-Allowed" code="1432" type="int"></AVP>
+	<AVP name="STN-SR" code="1433" type="str"></AVP>
+	<AVP name="Alert-Reason" code="1434" type="int"></AVP>
+	<AVP name="AMBR" code="1435" type="grp"></AVP>
+	<AVP name="CSG-Subscription-Data" code="1436" type="grp"></AVP>
+	<AVP name="CSG-Id" code="1437" type="int"></AVP>
+	<AVP name="PDN-GW-Allocation-Type" code="1438" type="int"></AVP>
+	<AVP name="Expiration-Date" code="1439" type="int"></AVP>
+	<AVP name="RAT-Frequency-Selection-Priority-ID" code="1440" type="int"></AVP>
+	<AVP name="IDA-Flags" code="1441" type="int"></AVP>
+	<AVP name="PUA-Flags" code="1442" type="int"></AVP>
+	<AVP name="NOR-Flags" code="1443" type="int"></AVP>
+	<AVP name="User-Id" code="1444" type="str"></AVP>
+	<AVP name="Equipment-Status" code="1445" type="int"></AVP>
+	<AVP name="Regional-Subscription-Zone-Code" code="1446" type="str"></AVP>
+	<AVP name="RAND" code="1447" type="str"></AVP>
+	<AVP name="XRES" code="1448" type="str"></AVP>
+	<AVP name="AUTN" code="1449" type="str"></AVP>
+	<AVP name="KASME" code="1450" type="str"></AVP>
+	<AVP name="Trace-Collection-Entity" code="1452" type="str"></AVP>
+	<AVP name="Kc" code="1453" type="str"></AVP>
+	<AVP name="SRES" code="1454" type="str"></AVP>
+	<AVP name="Requesting-Node-Type" code="1455" type="int"></AVP>
+	<AVP name="PDN-Type" code="1456" type="int"></AVP>
+	<AVP name="Roaming-Restricted-Due-To-Unsupported-Feature" code="1457" type="int"></AVP>
+	<AVP name="Trace-Data" code="1458" type="grp"></AVP>
+	<AVP name="Trace-Reference" code="1459" type="str"></AVP>
+	<AVP name="Trace-Depth" code="1462" type="int"></AVP>
+	<AVP name="Trace-NE-Type-List" code="1463" type="str"></AVP>
+	<AVP name="Trace-Interface-List" code="1464" type="str"></AVP>
+	<AVP name="Trace-Event-List" code="1465" type="str"></AVP>
+	<AVP name="OMC-Id" code="1466" type="str"></AVP>
+	<AVP name="GPRS-Subscription-Data" code="1467" type="grp"></AVP>
+	<AVP name="Complete-Data-List-Included-Indicator" code="1468" type="int"></AVP>
+	<AVP name="PDP-Context" code="1469" type="grp"></AVP>
+	<AVP name="PDP-Type" code="1470" type="str"></AVP>
+	<AVP name="TGPP2-MEID" code="1471" type="str"></AVP>
+	<AVP name="Specific-APN-Info" code="1472" type="grp"></AVP>
+	<AVP name="LCS-Info" code="1473" type="grp"></AVP>
+	<AVP name="GMLC-Address" code="1474" type="str"></AVP>
+	<AVP name="LCS-PrivacyException" code="1475" type="grp"></AVP>
+	<AVP name="SS-Code" code="1476" type="str"></AVP>
+	<AVP name="SS-Status" code="1477" type="str"></AVP>
+	<AVP name="Notification-To-UE-User" code="1478" type="int"></AVP>
+	<AVP name="External-Client" code="1479" type="grp"></AVP>
+	<AVP name="Client-Identity" code="1480" type="str"></AVP>
+	<AVP name="GMLC-Restriction" code="1481" type="int"></AVP>
+	<AVP name="PLMN-Client" code="1482" type="int"></AVP>
+	<AVP name="Service-Type" code="1483" type="grp"></AVP>
+	<AVP name="ServiceTypeIdentity" code="1484" type="int"></AVP>
+	<AVP name="MO-LR" code="1485" type="grp"></AVP>
+	<AVP name="Teleservice-List" code="1486" type="grp"></AVP>
+	<AVP name="TS-Code" code="1487" type="str"></AVP>
+	<AVP name="Call-Barring-Infor-List" code="1488" type="grp"></AVP>
+	<AVP name="SGSN-Number" code="1489" type="str"></AVP>
+	<AVP name="IDR-Flags" code="1490" type="int"></AVP>
+	<AVP name="ICS-Indicator" code="1491" type="int"></AVP>
+	<AVP name="IMS-Voice-Over-PS-Sessions-Supported" code="1492" type="int"></AVP>
+	<AVP name="Homogeneous-Support-of-IMS-Voice-Over-PS-Sessions" code="1493" type="int"></AVP>
+	<AVP name="Last-UE-Activity-Time" code="1494" type="int"></AVP>
+	<AVP name="EPS-User-State" code="1495" type="grp"></AVP>
+	<AVP name="EPS-Location-Information" code="1496" type="grp"></AVP>
+	<AVP name="MME-User-State" code="1497" type="grp"></AVP>
+	<AVP name="SGSN-User-State" code="1498" type="grp"></AVP>
+	<AVP name="User-State" code="1499" type="int"></AVP>
+	<AVP name="Non-3GPP-User-Data" code="1500" type="grp"></AVP>
+	<AVP name="Non-3GPP-IP-Access" code="1501" type="int"></AVP>
+	<AVP name="Non-3GPP-IP-Access-APN" code="1502" type="int"></AVP>
+	<AVP name="AN-Trusted" code="1503" type="int"></AVP>
+	<AVP name="ANID" code="1504" type="str"></AVP>
+	<AVP name="Trace-Info" code="1505" type="grp"></AVP>
+	<AVP name="MIP-FA-RK" code="1506" type="str"></AVP>
+	<AVP name="MIP-FA-RK-SPI" code="1507" type="int"></AVP>
+	<AVP name="MME-Location-Information" code="1600" type="grp"></AVP>
+	<AVP name="SGSN-Location-Information" code="1601" type="grp"></AVP>
+	<AVP name="E-UTRAN-Cell-Global-Identity" code="1602" type="str"></AVP>
+	<AVP name="Tracking-Area-Identity" code="1603" type="str"></AVP>
+	<AVP name="Cell-Global-Identity" code="1604" type="str"></AVP>
+	<AVP name="Routing-Area-Identity" code="1605" type="str"></AVP>
+	<AVP name="Location-Area-Identity" code="1606" type="str"></AVP>
+	<AVP name="Service-Area-Identity" code="1607" type="str"></AVP>
+	<AVP name="Geographical-Information" code="1608" type="str"></AVP>
+	<AVP name="Geodetic-Information" code="1609" type="str"></AVP>
+	<AVP name="Current-Location-Retrieved" code="1610" type="int"></AVP>
+	<AVP name="Age-Of-Location-Information" code="1611" type="int"></AVP>
+	<AVP name="Active-APN" code="1612" type="grp"></AVP>
+	<AVP name="SIPTO-Permission" code="1613" type="int"></AVP>
+	<AVP name="Error-Diagnostic" code="1614" type="int"></AVP>
+	<AVP name="UE-SRVCC-Capability" code="1615" type="int"></AVP>
+	<AVP name="MPS-Priority" code="1616" type="int"></AVP>
+	<AVP name="VPLMN-LIPA-Allowed" code="1617" type="int"></AVP>
+	<AVP name="LIPA-Permission" code="1618" type="int"></AVP>
+	<AVP name="Subscribed-Periodic-RAU-TAU-Timer" code="1619" type="int"></AVP>
+	<AVP name="Ext-PDP-Type" code="1620" type="str"></AVP>
+	<AVP name="Ext-PDP-Address" code="1621" type="str"></AVP>
+	<AVP name="MDT-Configuration" code="1622" type="grp"></AVP>
+	<AVP name="Job-Type" code="1623" type="int"></AVP>
+	<AVP name="Area-Scope" code="1624" type="grp"></AVP>
+	<AVP name="List-Of-Measurements" code="1625" type="int"></AVP>
+	<AVP name="Reporting-Trigger" code="1626" type="int"></AVP>
+	<AVP name="Report-Interval" code="1627" type="int"></AVP>
+	<AVP name="Report-Amount" code="1628" type="int"></AVP>
+	<AVP name="Event-Threshold-RSRP" code="1629" type="int"></AVP>
+	<AVP name="Event-Threshold-RSRQ" code="1630" type="int"></AVP>
+	<AVP name="Logging-Interval" code="1631" type="int"></AVP>
+	<AVP name="Logging-Duration" code="1632" type="int"></AVP>
+	<AVP name="Relay-Node-Indicator" code="1633" type="int"></AVP>
+	<AVP name="MDT-User-Consent" code="1634" type="int"></AVP>
+	<AVP name="PUR-Flags" code="1635" type="int"></AVP>
+	<AVP name="Subscribed-VSRVCC" code="1636" type="int"></AVP>
+	<AVP name="Equivalent-PLMN-List" code="1637" type="grp"></AVP>
+	<AVP name="CLR-Flags" code="1638" type="int"></AVP>
+	<AVP name="UVR-Flags" code="1639" type="int"></AVP>
+	<AVP name="UVA-Flags" code="1640" type="int"></AVP>
+	<AVP name="VPLMN-CSG-Subscription-Data" code="1641" type="grp"></AVP>
+	<AVP name="Time-Zone" code="1642" type="str"></AVP>
+	<AVP name="A-MSISDN" code="1643" type="str"></AVP>
+	<AVP name="MME-Number-for-MT-SMS" code="1645" type="str"></AVP>
+	<AVP name="SMS-Register-Request" code="1648" type="int"></AVP>
+	<AVP name="Daylight-Saving-Time" code="1650" type="int"></AVP>
+	<AVP name="Subscription-Data-Flags" code="1654" type="int"></AVP>
+	<AVP name="Measurement-Period-UMTS" code="1655" type="int"></AVP>
+	<AVP name="Measurement-Period-LTE" code="1656" type="int"></AVP>
+	<AVP name="Collection-Period-RRM-LTE" code="1657" type="int"></AVP>
+	<AVP name="Collection-Period-RRM-UMTS" code="1658" type="int"></AVP>
+	<AVP name="Positioning-Method" code="1659" type="str"></AVP>
+	<AVP name="Measurement-Quantity" code="1660" type="str"></AVP>
+	<AVP name="Event-Threshold-Event-1F" code="1661" type="int"></AVP>
+	<AVP name="Event-Threshold-Event-1I" code="1662" type="int"></AVP>
+	<AVP name="Restoration-Priority" code="1663" type="int"></AVP>
+	<AVP name="SMS-Information" code="2000" type="grp"></AVP>
+	<AVP name="Data-Coding-Scheme" code="2001" type="int"></AVP>
+	<AVP name="Destination-Interface" code="2002" type="grp"></AVP>
+	<AVP name="Interface-Id" code="2003" type="str"></AVP>
+	<AVP name="Interface-Port" code="2004" type="str"></AVP>
+	<AVP name="Interface-Text" code="2005" type="str"></AVP>
+	<AVP name="Interface-Type" code="2006" type="int"></AVP>
+	<AVP name="SM-Message-Type" code="2007" type="int"></AVP>
+	<AVP name="Originating-SCCP-Address" code="2008" type="str"></AVP>
+	<AVP name="Originator-Interface" code="2009" type="grp"></AVP>
+	<AVP name="Recipient-SCCP-Address" code="2010" type="str"></AVP>
+	<AVP name="Reply-Path-Requested" code="2011" type="int"></AVP>
+	<AVP name="SM-Discharge-Time" code="2012" type="int"></AVP>
+	<AVP name="SM-Protocol-ID" code="2013" type="str"></AVP>
+	<AVP name="SM-Status" code="2014" type="str"></AVP>
+	<AVP name="SM-User-Data-Header" code="2015" type="str"></AVP>
+	<AVP name="SMS-Node" code="2016" type="int"></AVP>
+	<AVP name="SMSC-Address" code="2017" type="str"></AVP>
+	<AVP name="Client-Address" code="2018" type="str"></AVP>
+	<AVP name="Number-of-Messages-Sent" code="2019" type="int"></AVP>
+	<AVP name="Low-Balance-Indication" code="2020" type="int"></AVP>
+	<AVP name="Remaining-Balance" code="2021" type="grp"></AVP>
+	<AVP name="Refund-Information" code="2022" type="str"></AVP>
+	<AVP name="Carrier-Select-Routing-Information" code="2023" type="str"></AVP>
+	<AVP name="Number-Portability-Routing-Information" code="2024" type="str"></AVP>
+	<AVP name="PoC-Event-Type" code="2025" type="int"></AVP>
+	<AVP name="Recipients" code="2026" type="grp"></AVP>
+	<AVP name="Destination-Interface" code="2027" type="grp"></AVP>
+	<AVP name="Recipient-Received-Address" code="2028" type="grp"></AVP>
+	<AVP name="SM-Service-Type" code="2029" type="int"></AVP>
+	<AVP name="MMTel-Information" code="2030" type="grp"></AVP>
+	<AVP name="Service-type" code="2031" type="int"></AVP>
+	<AVP name="Service-Mode" code="2032" type="int"></AVP>
+	<AVP name="Subscriber-Role" code="2033" type="int"></AVP>
+	<AVP name="Number-Of-Diversions" code="2034" type="int"></AVP>
+	<AVP name="Associated-Party-Address" code="2035" type="str"></AVP>
+	<AVP name="SDP-Type" code="2036" type="int"></AVP>
+	<AVP name="Change-Condition" code="2037" type="int"></AVP>
+	<AVP name="Change-Time" code="2038" type="int"></AVP>
+	<AVP name="Diagnostics" code="2039" type="int"></AVP>
+	<AVP name="Service-Data-Container" code="2040" type="grp"></AVP>
+	<AVP name="Start-Time" code="2041" type="int"></AVP>
+	<AVP name="Stop-Time" code="2042" type="int"></AVP>
+	<AVP name="Time-First-Usage" code="2043" type="int"></AVP>
+	<AVP name="Time-Last-Usage" code="2044" type="int"></AVP>
+	<AVP name="Time-Usage" code="2045" type="int"></AVP>
+	<AVP name="Traffic-Data-Volumes" code="2046" type="grp"></AVP>
+	<AVP name="Serving-Node-Type" code="2047" type="int"></AVP>
+	<AVP name="Supplementary-Service" code="2048" type="grp"></AVP>
+	<AVP name="Participant-Action-Type" code="2049" type="int"></AVP>
+	<AVP name="PDN-Connection-ID" code="2050" type="int"></AVP>
+	<AVP name="Dynamic-Address-Flag" code="2051" type="int"></AVP>
+	<AVP name="Accumulated-Cost" code="2052" type="grp"></AVP>
+	<AVP name="AoC-Cost-Information" code="2053" type="grp"></AVP>
+	<AVP name="AoC-Information" code="2054" type="grp"></AVP>
+	<AVP name="AoC-Request-Type" code="2055" type="int"></AVP>
+	<AVP name="Current-Tariff" code="2056" type="grp"></AVP>
+	<AVP name="Next-Tariff" code="2057" type="grp"></AVP>
+	<AVP name="Rate-Element" code="2058" type="grp"></AVP>
+	<AVP name="Scale-Factor" code="2059" type="grp"></AVP>
+	<AVP name="Tariff-Information" code="2060" type="grp"></AVP>
+	<AVP name="Unit-Cost" code="2061" type="grp"></AVP>
+	<AVP name="Incremental-Cost" code="2062" type="grp"></AVP>
+	<AVP name="Local-Sequence-Number" code="2063" type="int"></AVP>
+	<AVP name="Node-Id" code="2064" type="str"></AVP>
+	<AVP name="SGW-Change" code="2065" type="int"></AVP>
+	<AVP name="Charging-Characteristics-Selection-Mode" code="2066" type="int"></AVP>
+	<AVP name="SGW-Address" code="2067" type="str"></AVP>
+	<AVP name="Dynamic-Address-Flag-Extension" code="2068" type="int"></AVP>
+	<AVP name="Reserved" code="2100" type="str"></AVP>
+	<AVP name="Application-Server-ID" code="2101" type="int"></AVP>
+	<AVP name="Application-Service-Type" code="2102" type="int"></AVP>
+	<AVP name="Application-Session-ID" code="2103" type="int"></AVP>
+	<AVP name="Delivery-Status" code="2104" type="str"></AVP>
+	<AVP name="Reserved" code="2105" type="str"></AVP>
+	<AVP name="Reserved" code="2106" type="str"></AVP>
+	<AVP name="Reserved" code="2107" type="str"></AVP>
+	<AVP name="Reserved" code="2108" type="str"></AVP>
+	<AVP name="Reserved" code="2109" type="str"></AVP>
+	<AVP name="IM-Information" code="2110" type="grp"></AVP>
+	<AVP name="Number-Of-Messages-Successfully-Exploded" code="2111" type="int"></AVP>
+	<AVP name="Number-Of-Messages-Successfully-Sent" code="2112" type="int"></AVP>
+	<AVP name="Total-Number-Of-Messages-Exploded" code="2113" type="int"></AVP>
+	<AVP name="Total-Number-Of-Messages-Sent" code="2114" type="int"></AVP>
+	<AVP name="DCD-Information" code="2115" type="grp"></AVP>
+	<AVP name="Content-ID" code="2116" type="str"></AVP>
+	<AVP name="Content-provider-ID" code="2117" type="str"></AVP>
+	<AVP name="Charge-Reason-Code" code="2118" type="int"></AVP>
+	<AVP name="Subsession-Decision-Info" code="2200" type="grp"></AVP>
+	<AVP name="Subsession-Enforcement-Info" code="2201" type="grp"></AVP>
+	<AVP name="Subsession-Id" code="2202" type="int"></AVP>
+	<AVP name="Subsession-Operation" code="2203" type="int"></AVP>
+	<AVP name="Multiple-BBERF-Action" code="2204" type="int"></AVP>
+	<AVP name="Reserved" code="2300" type="str"></AVP>
+	<AVP name="SIP-Request-Timestamp-Fraction" code="2301" type="int"></AVP>
+	<AVP name="SIP-Response-Timestamp-Fraction" code="2302" type="int"></AVP>
+	<AVP name="Online-Charging-Flag" code="2303" type="int"></AVP>
+	<AVP name="CUG-Information" code="2304" type="str"></AVP>
+	<AVP name="Real-Time-Tariff-Information" code="2305" type="grp"></AVP>
+	<AVP name="Tariff-XML" code="2306" type="str"></AVP>
+	<AVP name="MBMS-GW-Address" code="2307" type="str"></AVP>
+	<AVP name="IMSI-Unauthenticated-Flag" code="2308" type="int"></AVP>
+	<AVP name="Account-Expiration" code="2309" type="int"></AVP>
+	<AVP name="AoC-Format" code="2310" type="int"></AVP>
+	<AVP name="AoC-Service" code="2311" type="grp"></AVP>
+	<AVP name="AoC-Service-Obligatory-Type" code="2312" type="int"></AVP>
+	<AVP name="AoC-Service-Type" code="2313" type="int"></AVP>
+	<AVP name="AoC-Subscription-Information" code="2314" type="grp"></AVP>
+	<AVP name="Preferred-AoC-Currency" code="2315" type="int"></AVP>
+	<AVP name="CSG-Access-Mode" code="2317" type="int"></AVP>
+	<AVP name="CSG-Membership-Indication" code="2318" type="int"></AVP>
+	<AVP name="User-CSG-Information" code="2319" type="grp"></AVP>
+	<AVP name="Outgoing-Session-Id" code="2320" type="str"></AVP>
+	<AVP name="Initial-IMS-Charging-Identifier" code="2321" type="str"></AVP>
+	<AVP name="LMSI" code="2400" type="str"></AVP>
+	<AVP name="Serving-Node" code="2401" type="grp"></AVP>
+	<AVP name="MME-Name" code="2402" type="str"></AVP>
+	<AVP name="MSC-Number" code="2403" type="str"></AVP>
+	<AVP name="LCS-Capabilities-Sets" code="2404" type="int"></AVP>
+	<AVP name="GMLC-Address" code="2405" type="str"></AVP>
+	<AVP name="Additional-Serving-Node" code="2406" type="grp"></AVP>
+	<AVP name="PSR-Address" code="2407" type="str"></AVP>
+	<AVP name="MME-Realm" code="2408" type="str"></AVP>
+	<AVP name="SGSN-Name" code="2409" type="str"></AVP>
+	<AVP name="SGSN-Realm" code="2410" type="str"></AVP>
+	<AVP name="RIA-Flags" code="2411" type="int"></AVP>
+	<AVP name="Location-Type" code="2500" type="int"></AVP>
+	<AVP name="LCS-EPS-Client-Name" code="2501" type="grp"></AVP>
+	<AVP name="LCS-Requestor-Name" code="2502" type="grp"></AVP>
+	<AVP name="LCS-Priority" code="2503" type="int"></AVP>
+	<AVP name="LCS-QoS" code="2504" type="grp"></AVP>
+	<AVP name="Horizontal-Accuracy" code="2505" type="int"></AVP>
+	<AVP name="Vertical-Accuracy" code="2506" type="int"></AVP>
+	<AVP name="Velocity-Requested" code="2508" type="int"></AVP>
+	<AVP name="Response-Time" code="2509" type="int"></AVP>
+	<AVP name="Supported-GAD-Shapes" code="2510" type="int"></AVP>
+	<AVP name="LCS-Codeword" code="2511" type="str"></AVP>
+	<AVP name="LCS-Privacy-Check" code="2512" type="int"></AVP>
+	<AVP name="Accuracy-Fulfilment-Indicator" code="2513" type="int"></AVP>
+	<AVP name="Age-Of-Location-Estimate" code="2514" type="int"></AVP>
+	<AVP name="Velocity-Estimate" code="2515" type="str"></AVP>
+	<AVP name="EUTRAN-Positioning-Data" code="2516" type="str"></AVP>
+	<AVP name="ECGI" code="2517" type="str"></AVP>
+	<AVP name="Location-Event" code="2518" type="int"></AVP>
+	<AVP name="LCS-Service-Type-ID" code="2520" type="int"></AVP>
+	<AVP name="LCS-Privacy-Check-Non-Session" code="2521" type="grp"></AVP>
+	<AVP name="LCS-Privacy-Check-Session" code="2522" type="grp"></AVP>
+	<AVP name="LCS-QoS-Class" code="2523" type="int"></AVP>
+	<AVP name="Reserved" code="2600" type="str"></AVP>
+	<AVP name="IMS-Application-Reference-Identifier" code="2601" type="str"></AVP>
+	<AVP name="Low-Priority-Indicator" code="2602" type="int"></AVP>
+	<AVP name="IP-Realm-Default-Indicator" code="2603" type="int"></AVP>
+	<AVP name="Local-GW-Inserted-Indicator" code="2604" type="int"></AVP>
+	<AVP name="Transcoder-Inserted-Indicator" code="2605" type="int"></AVP>
+	<AVP name="PDP-Address-Prefix-Length" code="2606" type="int"></AVP>
+	<AVP name="Policy-Counter-Identifier" code="2901" type="str"></AVP>
+	<AVP name="Policy-Counter-Status" code="2902" type="str"></AVP>
+	<AVP name="Policy-Counter-Status-Report" code="2903" type="grp"></AVP>
+	<AVP name="SL-Request-Type" code="2904" type="int"></AVP>
+	<AVP name="Pending-Policy-Counter-Information" code="2905" type="grp"></AVP>
+	<AVP name="Pending-Policy-Counter-Change-Time" code="2906" type="int"></AVP>
+	<AVP name="Device-Action" code="3001" type="grp"></AVP>
+	<AVP name="Device-Notification" code="3002" type="grp"></AVP>
+	<AVP name="Trigger-Data" code="3003" type="grp"></AVP>
+	<AVP name="Payload" code="3004" type="str"></AVP>
+	<AVP name="Action-Type" code="3005" type="int"></AVP>
+	<AVP name="Priority-Indication" code="3006" type="int"></AVP>
+	<AVP name="Reference-Number" code="3007" type="int"></AVP>
+	<AVP name="Request-Status" code="3008" type="int"></AVP>
+	<AVP name="Delivery-Outcome" code="3009" type="int"></AVP>
+	<AVP name="Application-Port-Identifier" code="3010" type="int"></AVP>
+	<AVP name="IP-SM-GW-Number" code="3100" type="str"></AVP>
+	<AVP name="IP-SM-GW-Name" code="3101" type="str"></AVP>
+	<AVP name="User-Identifier" code="3102" type="grp"></AVP>
+	<AVP name="Service-ID" code="3103" type="int"></AVP>
+	<AVP name="SCS-Identity" code="3104" type="str"></AVP>
+	<AVP name="Service-Parameters" code="3105" type="grp"></AVP>
+	<AVP name="T4-Parameters" code="3106" type="grp"></AVP>
+	<AVP name="Service-Data" code="3107" type="grp"></AVP>
+	<AVP name="T4-Data" code="3108" type="grp"></AVP>
+	<AVP name="HSS-Cause" code="3109" type="int"></AVP>
+	<AVP name="SIR-Flags" code="3110" type="int"></AVP>
+	<AVP name="External-Identifier" code="3111" type="str"></AVP>
+	<AVP name="SM-Delivery-Outcome-T4" code="3200" type="int"></AVP>
+	<AVP name="Absent-Subscriber-Diagnostic-T4" code="3201" type="int"></AVP>
+</Vendor>
+<!--vendor=12645, Vodafone-->
+<Vendor vendorcode="12645" vendorname="Vodafone">
+	<AVP name="Context-Type" code="256" type="int"></AVP>
+	<AVP name="Quota-Consumption-Time" code="257" type="int"></AVP>
+	<AVP name="Quota-Holding-Time" code="258" type="int"></AVP>
+	<AVP name="Time-Quota-Threshold" code="259" type="int"></AVP>
+	<AVP name="Radio-Access-Technology" code="260" type="int"></AVP>
+	<AVP name="Reporting-Reason" code="261" type="int"></AVP>
+	<AVP name="Rulebase-Id" code="262" type="str"></AVP>
+	<AVP name="Time-Of-First-Usage" code="263" type="int"></AVP>
+	<AVP name="Time-Of-Last-Usage" code="264" type="int"></AVP>
+	<AVP name="Trigger" code="265" type="grp"></AVP>
+	<AVP name="Trigger-Type" code="266" type="int"></AVP>
+	<AVP name="User-Location-Information" code="267" type="str"></AVP>
+	<AVP name="Volume-Quota-Threshold" code="268" type="int"></AVP>
+</Vendor>
+<!--vendor=12951, VerizonWireless-->
+<Vendor vendorcode="12951" vendorname="VerizonWireless">
+	<AVP name="Dummy" code="0" type="str"></AVP>
+</Vendor>
+<!--vendor=13019, ETSI-->
+<Vendor vendorcode="13019" vendorname="ETSI">
+	<AVP name="ETSI-Experimental-Result-Code" code="298" type="int"></AVP>
+	<AVP name="Not defined in .xml" code="299" type="str"></AVP>
+	<AVP name="Globally-Unique-Address" code="300" type="grp"></AVP>
+	<AVP name="Address-Realm" code="301" type="str"></AVP>
+	<AVP name="Logical-Access-Id" code="302" type="str"></AVP>
+	<AVP name="Initial-Gate-Setting" code="303" type="grp"></AVP>
+	<AVP name="QoS-Profile" code="304" type="grp"></AVP>
+	<AVP name="IP-Connectivity-Status" code="305" type="int"></AVP>
+	<AVP name="Access-Network-Type" code="306" type="grp"></AVP>
+	<AVP name="Aggregation-Network-Type" code="307" type="int"></AVP>
+	<AVP name="Maximum-Allowed-Bandwidth-UL" code="308" type="int"></AVP>
+	<AVP name="Maximum-Allowed-Bandwidth-DL" code="309" type="int"></AVP>
+	<AVP name="Maximum-Priority(deprecated)" code="310" type="int"></AVP>
+	<AVP name="Transport-Class" code="311" type="int"></AVP>
+	<AVP name="Application-Class-ID" code="312" type="str"></AVP>
+	<AVP name="Physical-Access-ID" code="313" type="str"></AVP>
+	<AVP name="Initial-Gate-Setting-ID" code="314" type="int"></AVP>
+	<AVP name="Not defined in .xml" code="315" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="316" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="317" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="318" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="319" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="320" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="321" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="322" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="323" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="324" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="325" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="326" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="327" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="328" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="329" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="330" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="331" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="332" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="333" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="334" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="335" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="336" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="337" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="338" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="339" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="340" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="341" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="342" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="343" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="344" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="345" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="346" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="347" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="348" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="349" type="str"></AVP>
+	<AVP name="Location-Information" code="350" type="grp"></AVP>
+	<AVP name="RACS-Contact-Point" code="351" type="str"></AVP>
+	<AVP name="Terminal-Type" code="352" type="str"></AVP>
+	<AVP name="Requested-Information" code="353" type="int"></AVP>
+	<AVP name="Event-Type" code="354" type="int"></AVP>
+	<AVP name="Civic-Location" code="355" type="str"></AVP>
+	<AVP name="Geospatial-Location" code="356" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="357" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="358" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="359" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="360" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="361" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="362" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="363" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="364" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="365" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="366" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="367" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="368" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="369" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="370" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="371" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="372" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="373" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="374" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="375" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="376" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="377" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="378" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="379" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="380" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="381" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="382" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="383" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="384" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="385" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="386" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="387" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="388" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="389" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="390" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="391" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="392" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="393" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="394" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="395" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="396" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="397" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="398" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="399" type="str"></AVP>
+	<AVP name="Session-Bundle-Id" code="400" type="int"></AVP>
+	<AVP name="Not defined in .xml" code="401" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="402" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="403" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="404" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="405" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="406" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="407" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="408" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="409" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="410" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="411" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="412" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="413" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="414" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="415" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="416" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="417" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="418" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="419" type="str"></AVP>
+	<AVP name="Event-Type" code="420" type="int"></AVP>
+	<AVP name="Not defined in .xml" code="421" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="422" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="423" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="424" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="425" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="426" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="427" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="428" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="429" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="430" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="431" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="432" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="433" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="434" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="435" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="436" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="437" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="438" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="439" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="440" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="441" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="442" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="443" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="444" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="445" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="446" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="447" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="448" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="449" type="str"></AVP>
+	<AVP name="Binding-information" code="450" type="grp"></AVP>
+	<AVP name="Binding-Input-List" code="451" type="grp"></AVP>
+	<AVP name="Binding-Output-List" code="452" type="grp"></AVP>
+	<AVP name="V6-Transport-address" code="453" type="grp"></AVP>
+	<AVP name="V4-Transport-Address" code="454" type="grp"></AVP>
+	<AVP name="Port-Number" code="455" type="int"></AVP>
+	<AVP name="Reservation-Class" code="456" type="int"></AVP>
+	<AVP name="Requested-Information" code="457" type="int"></AVP>
+	<AVP name="Reservation-Priority" code="458" type="int"></AVP>
+	<AVP name="Service-Class" code="459" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="460" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="461" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="462" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="463" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="464" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="465" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="466" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="467" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="468" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="469" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="470" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="471" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="472" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="473" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="474" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="475" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="476" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="477" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="478" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="479" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="480" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="481" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="482" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="483" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="484" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="485" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="486" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="487" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="488" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="489" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="490" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="491" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="492" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="493" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="494" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="495" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="496" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="497" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="498" type="str"></AVP>
+	<AVP name="Not defined in .xml" code="499" type="str"></AVP>
+	<AVP name="Line-Identifier" code="500" type="str"></AVP>
+	<AVP name="ETSI-SIP-Authenticate" code="501" type="grp"></AVP>
+	<AVP name="ETSI-SIP-Authorization" code="502" type="grp"></AVP>
+	<AVP name="ETSI-SIP-Authentication-Info" code="503" type="grp"></AVP>
+	<AVP name="ETSI-Digest-Realm" code="504" type="str"></AVP>
+	<AVP name="ETSI-Digest-Nonce" code="505" type="str"></AVP>
+	<AVP name="ETSI-Digest-Domain" code="506" type="str"></AVP>
+	<AVP name="ETSI-Digest-Opaque" code="507" type="str"></AVP>
+	<AVP name="ETSI-Digest-Stale" code="508" type="str"></AVP>
+	<AVP name="ETSI-Digest-Algorithm" code="509" type="str"></AVP>
+	<AVP name="ETSI-Digest-QoP" code="510" type="str"></AVP>
+	<AVP name="ETSI-Digest-HA1" code="511" type="str"></AVP>
+	<AVP name="ETSI-Digest-Auth-Param" code="512" type="str"></AVP>
+	<AVP name="ETSI-Digest-Username" code="513" type="str"></AVP>
+	<AVP name="ETSI-Digest-URI" code="514" type="str"></AVP>
+	<AVP name="ETSI-Digest-Response" code="515" type="str"></AVP>
+	<AVP name="ETSI-Digest-CNonce" code="516" type="str"></AVP>
+	<AVP name="ETSI-Digest-Nonce-Count" code="517" type="str"></AVP>
+	<AVP name="ETSI-Digest-Method" code="518" type="str"></AVP>
+	<AVP name="ETSI-Digest-Entity-Body-Hash" code="519" type="str"></AVP>
+	<AVP name="ETSI-Digest-Nextnonce" code="520" type="str"></AVP>
+	<AVP name="ETSI-Digest-Response-Auth" code="521" type="str"></AVP>
+</Vendor>
+<!--vendor=28458, NokiaSiemensNetworks-->
+<Vendor vendorcode="28458" vendorname="NokiaSiemensNetworks">
+	<AVP name="User-Agent-Type" code="2016" type="int"></AVP>
+</Vendor>
+<!--vendor=81000, ChinaTelecom-->
+<Vendor vendorcode="81000" vendorname="ChinaTelecom">
+	<AVP name="Dummy" code="0" type="str"></AVP>
+</Vendor>
+</AvpDict>

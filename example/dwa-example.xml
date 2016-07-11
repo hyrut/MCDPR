@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DiaMessage>
+<Request>False</Request>
+<CommandCode>280</CommandCode>
+<Application-Id>0</Application-Id>
+<AVP name="Origin-Host" type="str" code="264" vendor="0" flags="64">zz-brand-simhss01.ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Origin-Realm" type="str" code="296" vendor="0" flags="64">ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Result-Code" type="int" code="268" vendor="0" flags="64">2001</AVP>
+</DiaMessage>

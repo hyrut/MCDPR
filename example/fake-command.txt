@@ -1,0 +1,14 @@
+create message cer cer.xml
+create message dwa dwa.xml
+create connection mmecn client 192.168.168.6 3868 TCP cer dwa
+create connection hsscn client 192.168.165.227 3868 TCP cer dwa
+start connection mmecn
+start connection hsscn
+create redirector rd1 mmecn hsscn
+create redirector rd2 hsscn mmecn
+start redirector rd1
+start redirector rd2
+create message ida1 fakecase\ida.xml
+change redirector rd1 addMessageRedirectRestriction 16777251 319 True 1490 0 10415 24
+create responseTrigger rspt1 fakecase\rspt1.xml mmecn ida1
+change connection mmecn addResponseTrigger rspt1

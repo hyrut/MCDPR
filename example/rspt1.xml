@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DiaResponseTrigger>
+<Match>
+<CommandCode>303</CommandCode>
+<ApplicationId>16777221</ApplicationId>
+<Request>False</Request>
+<AVP name="Result-Code" code="268" vendor="0" flags="64">2001</AVP>
+<!--<AVP name="Orig-Host" code="264" vendor="0" flags="64">nsn-dra02</AVP>-->
+<AVP name="User-Name" code="1" vendor="0" flags="64">30106</AVP>
+</Match>
+</DiaResponseTrigger>

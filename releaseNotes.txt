@@ -1,0 +1,29 @@
+version 1.2
+1. Upgrade AvpDict.xml, upgrade vendor list from 4 to 15. upgrade number of AVP from 1187 to 2117.
+2. change command was changed like below:
+   Usage: change redirector <redirector-object-name> addMessageRedirectRestriction <applicationId> <commandCode> <isRequest> <avpCode> <sameAVPIndex> <avpVendor> <avpValue>
+   One parameter <applicationId> was added.
+   
+version 1.3
+1. Add SCTP support in MCDPR. To enable to use SCTP in MCDPR, please install SctpDrv first. SctpDrv is available at http://www.bluestop.org/SctpDrv/
+Download correct version of SctpDrv for your windows, and install it.
+
+version 1.4
+1. Add repeat control command in MCDPR 1.4.
+Use it as:
+repeat 3
+send xxx xxx xxx
+repeat-done 
+
+2. Modify pause command, pause command could work as pause until YYYY-mm-dd HH:MM:SS
+example:
+pause until 2015-11-19 14:40:00
+This command could help you to run several instance of MCDPR and try to do some action at sametime.
+
+version 1.5
+1. modify DiaConnection class, add some code, that could clear(popup the header of the queue) the diameter message queue if there is no consumer exist.
+2. add a function that allow user to change max message queue length of one connection, also a function that allow user to clear message queue.
+3. add command to support the functions above.
+    Usage: change connection <connection-object-name> maxMsgQLen <max-message-queue-length>
+    Usage: change connection <connection-object-name> clearMsgQ
+

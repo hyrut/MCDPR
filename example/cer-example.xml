@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DiaMessage>
+<Request>True</Request>
+<CommandCode>257</CommandCode>
+<Application-Id>0</Application-Id>
+<AVP name="Origin-Host" code="264" vendor="0" flags="64">zz-brand-simhss01.ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Origin-Realm" code="296" vendor="0" flags="64">ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Origin-State-Id" code="278" vendor="0" flags="64">0</AVP>
+<AVP name="HostIPAddress" code="257" vendor="0" flags="64">\x00\x01\xAC\x12\x06\x9E</AVP>
+<AVP name="Vendor-Id" code="266" vendor="0" flags="64">28458</AVP> 
+<AVP name="Product-Name" code="269" vendor="0" flags="0">MCDPR</AVP> 
+<AVP name="Supported-Vendor-Id" code="265" vendor="0" flags="64">10415</AVP> 
+<AVP name="Supported-Vendor-Id" code="265" vendor="0" flags="64">12645</AVP> 
+<AVP name="Supported-Vendor-Id" code="265" vendor="0" flags="64">4329</AVP> 
+<AVP name="Supported-Vendor-Id" code="265" vendor="0" flags="64">28458</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777216</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777236</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777221</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777265</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777251</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777217</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777219</AVP>
+</AVP> 
+<AVP name="Vendor-Specific-Application-Id" code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id" code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id" code="258" vendor="0" flags="64">16777317</AVP>
+</AVP> 
+</DiaMessage>

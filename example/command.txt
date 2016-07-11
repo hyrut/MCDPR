@@ -1,0 +1,22 @@
+create message cer example\cer-example.xml
+create message dwa example\dwa-example.xml
+create connection cn1 client 192.168.165.169 3868 TCP cer dwa
+create connection cn2 client 192.168.163.169 3868 TCP cer dwa
+start connection cn1
+start connection cn2
+create redirector rd1 cn1 cn2
+create redirector rd2 cn2 cn1
+start redirector rd1
+start redirector rd2
+change redirector rd1 addMessageRedirectRestriction 16777251 319 False 0 0 0 ""
+change redirector rd2 addMessageRedirectRestriction 16777221 303 False 268 0 0 2001
+create message mar1 example\mar.xml
+create message idr1 example\idr.xml
+create responseTrigger rspt1 example\rspt1.xml cn1 idr1
+change connection cn2 addResponseTrigger rspt1
+sleep 2000
+send connection cn2 mar1
+sleep 1000
+exit
+
+

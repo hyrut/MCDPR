@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DiaMessage>
+<Request>True</Request>
+<CommandCode>303</CommandCode>
+<Application-Id>16777221</Application-Id>
+<AVP name="Session-ID"  code="263" vendor="0" flags="64">hsshlr-test-0123456789</AVP>
+<AVP name="Auth-Session-State"  code="277" vendor="0" flags="64">1</AVP>
+<AVP name="Origin-Host"  code="264" vendor="0" flags="64">zz-brand-simhss02.ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Origin-Realm"  code="296" vendor="0" flags="64">ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Dest-Realm"  code="283" vendor="0" flags="64">ims.mnc000.mcc460.3gppnetwork.org</AVP>
+<AVP name="Dest-Host"  code="293" vendor="0" flags="64">hip.hss1.one-nds1.3gppnetwork.org</AVP>
+<AVP name="User-Name"  code="1" vendor="0" flags="64">460080100030106@ims.mnc008.mcc460.3gppnetwork.org</AVP>
+<AVP name="Vendor-Specific-Application-Id"  code="260" vendor="0" flags="64">
+	<AVP name="Vendor-Id"  code="266" vendor="0" flags="64">10415</AVP>
+	<AVP name="Auth-Application-Id"  code="258" vendor="0" flags="64">16777221</AVP>
+</AVP> 
+</DiaMessage>
